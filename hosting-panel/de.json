@@ -45,13 +45,7 @@
       "scroll_down": "Runter scrollen..."
     },
     "services": {
-      "description": "Entdecke unsere leistungsstarken Hosting-Services, die perfekt auf deine Bedürfnisse zugeschnitten sind. Ob Spieleserver oder Webhosting – bei uns findest du alles, was du brauchst!",
-      "list": {
-        "minecraft": "Minecraft Server",
-        "terraria": "Terraria Server",
-        "discord": "Discord Bot",
-        "ark": "ARK Server"
-      }
+      "description": "Entdecke unsere leistungsstarken Hosting-Services, die perfekt auf deine Bedürfnisse zugeschnitten sind. Ob Spieleserver oder Webhosting – bei uns findest du alles, was du brauchst!"
     },
     "dashboard": {
       "overview": "Übersicht",

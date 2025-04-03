@@ -33,7 +33,8 @@
         "delete": "7yd",
         "edit": "S7i7",
         "back": "Rje3",
-        "next": "Mchi lfuq"
+        "next": "Mchi lfuq",
+        "send": "Sift"
       },
       "loading": "Kaytch7n...",
       "error": "Chi moshkil",
@@ -44,13 +45,7 @@
       "scroll_down": "Nzl lta7t..."
     },
     "services": {
-      "description": "T9ashaf l'order dyalna li khasak, mn hosting dyal l3ab 7ta lweb hosting.",
-      "list": {
-        "minecraft": "Server dyal Minecraft",
-        "terraria": "Server dyal Terraria",
-        "discord": "Bot dyal Discord",
-        "ark": "Server dyal ARK"
-      }
+      "description": "T9ashaf l'order dyalna li khasak, mn hosting dyal l3ab 7ta lweb hosting."
     },
     "dashboard": {
       "overview": "Dashboard",
@@ -79,8 +74,7 @@
         },
         "reset_password": {
           "title": "Bddl lcode",
-          "description": "Ghad nsifto lik email bi link bach tbddl lcode dyalk.",
-          "send": "Sift"
+          "description": "Ghad nsifto lik email bi link bach tbddl lcode dyalk."
         }
       },
       "affiliates": {
@@ -109,6 +103,9 @@
         "title": "ltickets dyal lmosa3ada",
         "description": "Twasl m3a lsupport team dyalna.",
         "search_label": "Cherchi f tickets...",
+        "showing_tickets": "Kayban {{ticketsLength}} mn {{totalItems}} tickets",
+        "type_reply": "Kteb radd dyalk...",
+        "assigned_to": "Msoul:",
         "filters": {
           "all": "Jami3 ltickets",
           "open": "ltickets lm7lulin",
@@ -119,6 +116,12 @@
           "medium": "Motawasit",
           "high": "3ali",
           "urgent": "Mosta3jil"
+        },
+        "status": {
+          "open": "M7lol",
+          "closed": "Msdod",
+          "open_tickets": "Ticket m7lolin",
+          "closed_tickets": "Ticket Msdodin"
         },
         "modal": {
           "title": "7ol ticket lmosa3ada",
@@ -155,26 +158,26 @@
           "backups": "lnsakh li7tiyatya",
           "console": {
             "type_a_command": "Ktb amr...",
-            "send": "Sift",
             "clear": "N9i"
           },
           "actions": {
             "start": "Bda",
             "stop": "W9f",
-            "restart": "A3id t-chghil",
+            "restart": "A3id tchghil",
             "kill": "A9til",
             "backup": "Nsakh i7tiyati",
             "restore": "A3id listi3mal",
             "delete": "7yd"
           },
           "metrics": {
+            "status_label": "L7ala",
             "status": {
-              "online": "Mshghul",
-              "stopped": "Moqouf",
-              "starting": "Kaybd",
-              "stopping": "Kayw9f",
-              "restarting": "Kay3id lchghil",
-              "killing": "Kay9til"
+              "online": "Khddam",
+              "stopped": "Mwaqaf",
+              "starting": "Kaybdā",
+              "stopping": "Kaywqaf",
+              "restarting": "Kay3awd ich3al",
+              "killing": "Kaytqtl"
             },
             "cpu": "Ist3mal CPU",
             "memory": "Ist3mal RAM",

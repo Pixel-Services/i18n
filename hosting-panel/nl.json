@@ -45,13 +45,7 @@
     "scroll_down": "Scroll naar onder..."
   },
   "services": {
-    "description": "Verken ons aanbod van high-performance hostingdiensten die zijn ontworpen om aan jouw behoeften te voldoen. Van game-servers tot webhosting, wij bieden de oplossing die je zoekt.",
-    "list": {
-      "minecraft": "Minecraft Server",
-      "terraria": "Terraria Server",
-      "discord": "Discord Bot",
-      "ark": "ARK Server"
-    }
+    "description": "Verken ons aanbod van high-performance hostingdiensten die zijn ontworpen om aan jouw behoeften te voldoen. Van game-servers tot webhosting, wij bieden de oplossing die je zoekt."
   },
   "dashboard": {
     "overview": "Overzicht",

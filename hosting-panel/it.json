@@ -33,7 +33,8 @@
         "delete": "Elimina",
         "edit": "Modifica",
         "back": "Indietro",
-        "next": "Avanti"
+        "next": "Avanti",
+        "send": "Invia"
       },
       "loading": "Caricamento...",
       "error": "Errore",
@@ -73,8 +74,7 @@
         },
         "reset_password": {
           "title": "Reimposta Password",
-          "description": "Ti invieremo un'email con un link per reimpostare la tua password al tuo indirizzo email.",
-          "send": "Invia"
+          "description": "Ti invieremo un'email con un link per reimpostare la tua password al tuo indirizzo email."
         }
       },
       "affiliates": {
@@ -103,16 +103,25 @@
         "title": "Ticket di Supporto",
         "description": "Ricevi aiuto dal nostro team di supporto.",
         "search_label": "Cerca ticket...",
+        "showing_tickets": "Mostrando {{ticketsLength}} di {{totalItems}} tickets",
+        "type_reply": "Digita la tua risposta...",
+        "assigned_to": "Assegnato a",
         "filters": {
-          "all": "Tutti i Ticket",
-          "open": "Ticket Aperti",
-          "closed": "Ticket Chiusi"
+          "all": "Tutti i ticket",
+          "open": "Ticket aperti",
+          "closed": "Ticket chiusi"
         },
         "priority": {
-          "low": "Bassa",
-          "medium": "Media",
-          "high": "Alta",
+          "low": "Basso",
+          "medium": "Medio",
+          "high": "Alto",
           "urgent": "Urgente"
+        },
+        "status": {
+          "open": "Aperto",
+          "closed": "Chiuso",
+          "open_tickets": "Ticket aperti",
+          "closed_tickets": "Ticket chiusi"
         },
         "modal": {
           "title": "Crea Ticket di Supporto",
@@ -149,7 +158,6 @@
           "backups": "Backup",
           "console": {
             "type_a_command": "Digita un comando...",
-            "send": "Invia",
             "clear": "Pulisci"
           },
           "actions": {
@@ -162,6 +170,7 @@
             "delete": "Elimina"
           },
           "metrics": {
+            "status_label": "Stato",
             "status": {
               "online": "Online",
               "stopped": "Fermato",

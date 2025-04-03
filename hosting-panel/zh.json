@@ -1,216 +1,218 @@
 {
-    "common": {
-      "carbon_negative": "Carbon Negative",
-      "carbon_negative_goal": {
-        "title": "Our Carbon Negative Goal",
-        "description": "The servers we host are powered entirely by green, renewable energy. We partner with companies that let us plant trees for every service we host, effectively removing additional CO2 from the atmosphere."
-      },
-      "carbon_stats": {
-        "trees_planted": "Trees Planted",
-        "co2_offset": "CO2 Offset",
-        "reforested_land": "Acres of Reforested Land",
-        "since_november_2024": "Since November 2024",
-        "kg_of_co2": "Kg of CO2"
-      },
-      "landing_description": "Pixel Services offers affordable game hosting featuring high-performance servers powered by top of the notch Ryzen CPUs, DDR5 RAM and NVMe SSDs. Our plans include strong DDoS protection, daily backups, and fast networking, all easily managed through an intuitive dashboard. Premium hosting features at a budget-friendly price while supporting our commitment to sustainability.",
-      "explore_plans": "Explore Plans",
-      "navigation": {
-        "home": "Home",
-        "services": "Services",
-        "pricing": "Pricing",
-        "about": "About",
-        "contact": "Contact",
-        "faq": "FAQ",
-        "support": "Support"
-      },
-      "actions": {
-        "login": "Login",
-        "register": "Register",
-        "submit": "Submit",
-        "confirm": "Confirm",
-        "cancel": "Cancel",
-        "save": "Save",
-        "delete": "Delete",
-        "edit": "Edit",
-        "back": "Back",
-        "next": "Next"
-      },
-      "loading": "Loading...",
-      "error": "Error",
-      "success": "Success",
-      "welcome": "Welcome",
-      "manage": "Manage",
-      "join_discord": "Join Discord",
-      "scroll_down": "Scroll down..."
+  "common": {
+    "carbon_negative": "Carbon Negative",
+    "carbon_negative_goal": {
+      "title": "Our Carbon Negative Goal",
+      "description": "The servers we own are powered exclusively by green, renewable energy sources. We partner with companies that allow us to plant trees for every service we sell, effectively removing additional CO2 from the atmosphere."
     },
+    "carbon_stats": {
+      "trees_planted": "Trees Planted",
+      "co2_offset": "CO2 Offset",
+      "reforested_land": "Acres of Reforested Land",
+      "since_november_2024": "Since November 2024",
+      "kg_of_co2": "KG of CO2"
+    },
+    "landing_description": "Pixel Services offers high-performance, budget-friendly game hosting with Ryzen processors, DDR5 RAM, and NVMe storage. Enjoy DDoS protection, daily backups, and fast connectivity—all managed through an intuitive panel. Premium hosting at a great price, with a commitment to sustainability.",
+    "explore_plans": "Explore Plans",
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "support": "Support"
+    },
+    "actions": {
+      "login": "Login",
+      "register": "Register",
+      "submit": "Submit",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "next": "Next",
+      "send": "Send"
+    },
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "welcome": "Welcome",
+    "manage": "Manage",
+    "join_discord": "Join us on Discord",
+    "scroll_down": "Scroll Down..."
+  },
+  "services": {
+    "description": "Discover a wide range of powerful hosting services designed to meet your expectations. From game servers to website hosting, we have everything you need."
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "recent_emails": "Recent Emails",
+    "recent_emails_not_found": "No new emails found.",
     "services": {
-      "description": "Explore our range of high-performance hosting services designed to meet your needs. From game servers to web hosting, we've got you covered.",
-      "list": {
-        "minecraft": "Minecraft Server",
-        "terraria": "Terraria Server",
-        "discord": "Discord Bot",
-        "ark": "ARK Server"
+      "title": "Your Services",
+      "description": "List of your current services and their status.",
+      "order_new": "Order New Service",
+      "active_services": "Active Services",
+      "active_services_description": "Number of active services."
+    },
+    "settings": {
+      "title": "Settings",
+      "save_all": "Save All",
+      "avatar": {
+        "title": "Avatar",
+        "upload": "Change",
+        "upload_description": "Click the avatar to change it."
+      },
+      "general_information": {
+        "username": "Username",
+        "email": "Email",
+        "first_name": "First Name",
+        "last_name": "Last Name"
+      },
+      "reset_password": {
+        "title": "Reset Password",
+        "description": "We will send you an email with a link to reset your password."
       }
     },
-    "dashboard": {
-      "overview": "Overview",
-      "recent_emails": "Recent Emails",
-      "recent_emails_not_found": "No recent emails found.",
-      "services": {
-        "title": "Your Services",
-        "description": "A list of your current services and their status.",
-        "order_new": "Order New Service",
-        "active_services": "Active Services",
-        "active_services_description": "Total active services."
+    "affiliates": {
+      "title": "Your Affiliates",
+      "not_eligible": "You are not eligible for the affiliate program yet.",
+      "request": "Send Request",
+      "modal": {
+        "title": "Send Request",
+        "description": "Tell us why.",
+        "placeholder": "Explain why you're interested in joining the affiliate program.",
+        "footer": "Include helpful links, tell us about yourself. You will receive a response when your application is updated."
+      }
+    },
+    "balance": {
+      "title": "Balance",
+      "description": "View your current balance or top it up.",
+      "top_up": "Top Up",
+      "modal": {
+        "title": "Top Up Balance",
+        "amount_specification": "Amount you want to top up:",
+        "footer": "The amount will be added to your balance immediately after the transaction is completed.",
+        "continue_to_payment": "Continue to Payment"
+      }
+    },
+    "tickets": {
+      "title": "Support Tickets",
+      "description": "Ask our specialists for help.",
+      "search_label": "Search tickets...",
+      "showing_tickets": "Showing {{ticketsLength}} of {{totalItems}} tickets",
+      "type_reply": "Type your reply...",
+      "assigned_to": "Assigned to",
+      "filters": {
+        "all": "All Tickets",
+        "open": "Open Tickets",
+        "closed": "Closed Tickets"
       },
-      "settings": {
-        "title": "Settings",
-        "save_all": "Save All",
-        "avatar": {
-          "title": "Avatar",
-          "upload": "Upload",
-          "upload_description": "Click the avatar to upload a new one."
-        },
-        "general_information": {
-          "username": "Username",
-          "email": "Email",
-          "first_name": "First Name",
-          "last_name": "Last Name"
-        },
-        "reset_password": {
-          "title": "Reset Password",
-          "description": "We'll send an email with a link to reset your password to your email.",
-          "send": "Send"
-        }
+      "priority": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "urgent": "Urgent"
       },
-      "affiliates": {
-        "title": "Your Affiliates",
-        "not_eligible": "You are not eligible to affiliate yet.",
-        "request": "Request Affiliate",
-        "modal": {
-          "title": "Request Affiliate",
-          "description": "Tell us why.",
-          "placeholder": "Please tell us why you want to be an affiliate.",
-          "footer": "Include any helpful links, tell us about yourself. You will be notified when your request status has been updated."
-        }
+      "status": {
+        "open": "Open",
+        "closed": "Closed",
+        "open_tickets": "Open Tickets",
+        "closed_tickets": "Closed Tickets"
       },
-      "balance": {
-        "title": "Balance",
-        "description": "View your current balance and top up your account.",
-        "top_up": "Top Up",
-        "modal": {
-          "title": "Top Up Balance",
-          "amount_specification": "Amount you want to add to your balance:",
-          "footer": "The amount will be added to your balance immediately after successful payment.",
-          "continue_to_payment": "Continue to Payment"
-        }
+      "modal": {
+        "title": "Create Ticket",
+        "description": "Describe your problem so we can help you solve it.",
+        "subject": "Subject",
+        "message": "Message",
+        "tips": [
+          "Describe your problem in detail",
+          "Specify any specific error message",
+          "Describe the steps you have already taken",
+          "Do not include any personal data (we will never ask for it)",
+          "Be patient, we will respond as quickly as we can"
+        ],
+        "create_button": "Create Ticket"
       },
-      "tickets": {
-        "title": "Support Tickets",
-        "description": "Get help from our support team.",
-        "search_label": "Search tickets...",
-        "filters": {
-          "all": "All Tickets",
-          "open": "Open Tickets",
-          "closed": "Closed Tickets"
-        },
-        "priority": {
-          "low": "Low",
-          "medium": "Medium",
-          "high": "High",
-          "urgent": "Urgent"
-        },
-        "modal": {
-          "title": "Create Support Ticket",
-          "description": "Describe your issue and we'll help you resolve it.",
-          "subject": "Subject",
-          "message": "Message",
-          "tips": [
-            "Be specific about what you're experiencing",
-            "Include any error messages you've received",
-            "Mention what steps you've already tried",
-            "Don't include any personal information (we will never ask for it)",
-            "Be patient, we'll get back to you as soon as possible"
-          ],
-          "create_button": "Create Ticket"
+      "actions": {
+        "close": "Close Ticket",
+        "reopen": "Reopen Ticket",
+        "new": "New Ticket"
+      }
+    },
+    "billing": {
+      "title": "Billing",
+      "invoices": "Invoices",
+      "invoices_description": "All your invoices."
+    },
+    "service": {
+      "pterodactyl": {
+        "overview": "Overview",
+        "files": "Files",
+        "properties": "Properties",
+        "databases": "Databases",
+        "schedules": "Schedules",
+        "backups": "Backups",
+        "console": {
+          "type_a_command": "Type a command...",
+          "clear": "Clear"
         },
         "actions": {
-          "close": "Close Ticket",
-          "reopen": "Reopen Ticket",
-          "new": "New Ticket"
-        }
-      },
-      "billing": {
-        "title": "Billing",
-        "invoices": "Invoices",
-        "invoices_description": "Total invoices."
-      },
-      "service": {
-        "pterodactyl": {
-          "overview": "Overview",
-          "files": "Files",
-          "properties": "Properties",
-          "databases": "Databases",
-          "schedules": "Schedules",
-          "backups": "Backups",
-          "console": {
-            "type_a_command": "Type a command...",
-            "send": "Send",
-            "clear": "Clear"
+          "start": "Start",
+          "stop": "Stop",
+          "restart": "Restart",
+          "kill": "Kill",
+          "backup": "Backup",
+          "restore": "Restore",
+          "delete": "Delete"
+        },
+        "metrics": {
+          "status_label": "Status",
+          "status": {
+            "online": "Online",
+            "offline": "Offline",
+            "starting": "Starting",
+            "stopping": "Stopping",
+            "restarting": "Restarting",
+            "killing": "Killing"
           },
-          "actions": {
-            "start": "Start",
-            "stop": "Stop",
-            "restart": "Restart",
-            "kill": "Kill",
-            "backup": "Backup",
-            "restore": "Restore",
-            "delete": "Delete"
-          },
-          "metrics": {
-            "status": {
-              "online": "Online",
-              "stopped": "Stopped",
-              "starting": "Starting",
-              "stopping": "Stopping",
-              "restarting": "Restarting",
-              "killing": "Killing"
-            },
-            "cpu": "CPU Usage",
-            "memory": "Memory Usage",
-            "disk": "Storage Usage",
-            "network": "Network",
-            "uptime": "Uptime"
-          }
+          "cpu": "CPU Usage",
+          "memory": "Memory Usage",
+          "disk": "Disk Usage",
+          "network": "Network",
+          "uptime": "Uptime"
         }
-      },
-      "profile": "Profile",
-      "logout": "Logout",
-      "admin_panel": "Admin Panel"
+      }
     },
-    "auth": {
-      "email": "Email",
-      "password": "Password",
-      "confirm_password": "Confirm Password",
-      "forgot_password": "Forgot Password?",
-      "reset_password": "Reset Password",
-      "verify_email": "Verify Email",
-      "verification_code": "Verification Code",
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "username": "Username",
-      "already_have_account": "Already have an account?",
-      "dont_have_account": "Don't have an account?"
-    },
-    "errors": {
-      "page_not_found": "Page not found",
-      "unauthorized": "Unauthorized",
-      "server_error": "Server error",
-      "invalid_credentials": "Invalid credentials",
-      "required_field": "This field is required",
-      "password_mismatch": "Passwords don't match",
-      "invalid_email": "Invalid email address",
-      "generic_error": "Something went wrong"
-    }
+    "profile": "Profile",
+    "logout": "Logout",
+    "admin_panel": "Admin Panel"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forgot_password": "Forgot Password?",
+    "reset_password": "Reset Password",
+    "verify_email": "Verify Email",
+    "verification_code": "Verification Code",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "username": "Username",
+    "already_have_account": "Already have an account?",
+    "dont_have_account": "Don't have an account?"
+  },
+  "errors": {
+    "page_not_found": "Page not found",
+    "unauthorized": "Unauthorized",
+    "server_error": "Server error",
+    "invalid_credentials": "Invalid credentials",
+    "required_field": "This field is required",
+    "password_mismatch": "Passwords do not match",
+    "invalid_email": "Invalid email address",
+    "generic_error": "Something went wrong"
   }
-  
+}
