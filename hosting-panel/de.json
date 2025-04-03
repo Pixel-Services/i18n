@@ -1,0 +1,224 @@
+{
+    "common": {
+      "carbon_negative": "Negative Emissionen",
+      "carbon_negative_goal": {
+        "title": "Unser Ziel zu negativen Emessionen",
+        "description": "Jeder Server, den wir anbieten, wird vollständig mit grüner, erneuerbarer Energie betrieben. Zudem sind wir Partner von Unternehmen, die für jeden von uns gehosteten Server Bäume pflanzen. Dadurch entlasten wir die Umwelt zusätzlich von CO₂!"
+      },
+      "carbon_stats": {
+        "trees_planted": "Geplanzte Bäume",
+        "co2_offset": "CO2 Offset",
+        "reforested_land": "Aufgeforstete Hektar Land",
+        "since_november_2024": "Seit November 2024",
+        "kg_of_co2": "kg CO2"
+      },
+      "landing_description": "Pixel Services bietet leistungsstarke und günstige Game-Server mit Ryzen-, Intel- und EPYC-CPUs. Unsere Tarife beinhalten starken DDoS-Schutz, tägliche Backups und ein schnelles Netzwerk – alles einfach verwaltbar über ein intuitives Dashboard. Erlebe erstklassiges Hosting zum budgetfreundlichen Preis und unterstütze dabei die Umwelt.",
+      "explore_plans": "Pläne",
+      "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "pricing": "Preise",
+        "about": "Über",
+        "contact": "Kontakt",
+        "faq": "FAQ",
+        "support": "Support"
+      },
+      "actions": {
+        "login": "Einloggen",
+        "register": "Registrieren",
+        "submit": "Fertig",
+        "confirm": "Bestätigen",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "delete": "Löschen",
+        "edit": "Bearbeiten",
+        "back": "Zurück",
+        "next": "Nächste",
+        "send": "Senden"
+      },
+      "loading": "Läd...",
+      "error": "Fehler",
+      "success": "Erfolgreich",
+      "welcome": "Wilkommen",
+      "manage": "Verwalten",
+      "join_discord": "Discord Beitreten",
+      "scroll_down": "Runter scrollen..."
+    },
+    "services": {
+      "description": "Entdecke unsere leistungsstarken Hosting-Services, die perfekt auf deine Bedürfnisse zugeschnitten sind. Ob Spieleserver oder Webhosting – bei uns findest du alles, was du brauchst!",
+      "list": {
+        "minecraft": "Minecraft Server",
+        "terraria": "Terraria Server",
+        "discord": "Discord Bot",
+        "ark": "ARK Server"
+      }
+    },
+    "dashboard": {
+      "overview": "Übersicht",
+      "recent_emails": "Kürzliche E-Mails",
+      "recent_emails_not_found": "Keine kürzlichen E-Mails gefunden.",
+      "services": {
+        "title": "Deine Services",
+        "description": "Eine Liste deiner aktuellen Services.",
+        "order_new": "Neuen Service Bestellen",
+        "active_services": "Aktive Services",
+        "active_services_description": "Anzahl and aktiven Services."
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "save_all": "Alle Speichern",
+        "avatar": {
+          "title": "Avatar",
+          "upload": "Hochladen",
+          "upload_description": "Drücke auf den Avatar, um einen neuen hochzuladen."
+        },
+        "general_information": {
+          "username": "Benutzername",
+          "email": "E-Mail",
+          "first_name": "Vorname",
+          "last_name": "Nachname"
+        },
+        "reset_password": {
+          "title": "Passwort zurücksetzen",
+          "description": "Wir werden Ihnen eine E-Mail mit einem Link zum Zurücksetzen Ihres Passworts per E-Mail schicken."
+        }
+      },
+      "affiliates": {
+        "title": "Affiliate",
+        "not_eligible": "Du hast momentan keinen zugriff auf das Affiliate Programm.",
+        "request": "Affiliate Anfragen",
+        "modal": {
+          "title": "Affiliate Anfragen",
+          "description": "Warum willst du Affiliate werden?",
+          "placeholder": "Bitte erzähle uns, warum du Teil des Affiliate Programms werden möchtest.",
+          "footer": "Füge hilfreiche Links hinzu und erzähle uns etwas über dich. Du wirst benachrichtigt, sobald deine Anfrage überprüft wurde."
+        }
+      },
+      "balance": {
+        "title": "Kontostand",
+        "description": "Deinen aktuellen Kontostand einsehen und Ihr Konto aufladen",
+        "top_up": "Aufladen",
+        "modal": {
+          "title": "Kontostand Aufladen",
+          "amount_specification": "Wie viel möchtest du aufladen:",
+          "footer": "Der Betrag wird deinem Guthaben sofort nach erfolgreicher Zahlung gutgeschrieben.",
+          "continue_to_payment": "Weiter zur Zahlung"
+        }
+      },
+      "tickets": {
+        "title": "Tickets",
+        "description": "Hole dir Hilfe von unserem Support-Team.",
+        "search_label": "Tickets durchsuchen...",
+        "showing_tickets": "Zeigt {{ticketsLength}} von {{totalItems}} Tickets",
+        "type_reply": "Gib deine Antwort ein...",
+        "assigned_to": "Zugewiesen an",
+        "filters": {
+          "all": "Alle Tickets",
+          "open": "Offene Tickets",
+          "closed": "Geschlossene Tickets"
+        },
+        "priority": {
+          "low": "Niedrig",
+          "medium": "Mittel",
+          "high": "Hoch",
+          "urgent": "Sehr Dringend"
+        },
+        "status": {
+          "open": "Offen",
+          "closed": "Geschlossen",
+          "open_tickets": "Offene Tickets",
+          "closed_tickets": "Geschlossene Tickets"
+        },
+        "modal": {
+          "title": "Support-Ticket erstellen",
+          "description": "Beschreibe dein Problem und wir werden dir helfen, eine Lösung zu finden.",
+          "subject": "Betreff",
+          "message": "Nachricht",
+          "tips": [
+            "Beschreibe genau, was du passiert",
+            "Gib alle Fehlermeldungen an, die du erhalten hast",
+            "Nennen alle Schritte, die du bereits unternommen hast",
+            "Gib keine persönlichen Informationen an (wir werden dich nie danach fragen)",
+            "Habe Geduld, wir melden uns so bald wie möglich bei dir."
+          ],
+          "create_button": "Ticket Erstellen"
+        },
+        "actions": {
+          "close": "Ticket Schließen",
+          "reopen": "Ticket erneut öffnen",
+          "new": "Neues Ticket"
+        }
+      },
+      "billing": {
+        "title": "Rechnungen",
+        "invoices": "Rechnungen",
+        "invoices_description": "Rechnungen insgesamt."
+      },
+      "service": {
+        "pterodactyl": {
+          "overview": "Überblick",
+          "files": "Dateien",
+          "properties": "Eigenschaften",
+          "databases": "Datenbanken",
+          "schedules": "Automatisierungen",
+          "backups": "Backups",
+          "console": {
+            "type_a_command": "Gib einen Befehl ein...",
+            "clear": "Leeren"
+          },
+          "actions": {
+            "start": "Starten",
+            "stop": "Stoppen",
+            "restart": "Neustarten",
+            "kill": "Zwangsstopp",
+            "backup": "Backup",
+            "restore": "Wiederherstellen",
+            "delete": "Löschen"
+          },
+          "metrics": {
+            "status_label": "Status",
+            "status": {
+              "online": "Online",
+              "offline": "Angehalten",
+              "starting": "Startet",
+              "stopping": "Hält An",
+              "restarting": "Startet Neu",
+              "killing": "Wird Zwangsgestoppt"
+            },
+            "cpu": "CPU Auslastung",
+            "memory": "RAM Auslastung",
+            "disk": "Speicher Auslastung",
+            "network": "Netzwerk",
+            "uptime": "Laufzeit"
+          }
+        }
+      },
+      "profile": "Profil",
+      "logout": "Ausloggen",
+      "admin_panel": "Admin Bereich"
+    },
+    "auth": {
+      "email": "Email",
+      "password": "Passwort",
+      "confirm_password": "Passwort Bestätigen",
+      "forgot_password": "Password Vergessen?",
+      "reset_password": "Password Zurücksetzen",
+      "verify_email": "Email Verifizieren",
+      "verification_code": "Verifizierungs Code",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "username": "Benutzername",
+      "already_have_account": "Du hast bereits ein Konto?",
+      "dont_have_account": "Du hast noch kein Konto?"
+    },
+    "errors": {
+      "page_not_found": "Seite nicht gefunden",
+      "unauthorized": "Keinen Zugriff",
+      "server_error": "Server Fehler",
+      "invalid_credentials": "Ungültige Zugangsdaten",
+      "required_field": "Dieses Feld ist erforderlich",
+      "password_mismatch": "Passwörter stimmen nicht überein",
+      "invalid_email": "Ungültige E-Mail Adresse",
+      "generic_error": "Etwas ist schief gelaufen"
+    }
+  }

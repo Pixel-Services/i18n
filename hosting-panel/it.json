@@ -1,0 +1,209 @@
+{
+    "common": {
+      "carbon_negative": "Carbon Negative",
+      "carbon_negative_goal": {
+        "title": "Il Nostro Obiettivo Carbon Negative",
+        "description": "I server che vendiamo sono alimentati interamente da energia verde e rinnovabile. Inoltre, collaboriamo con aziende che ci permettono di piantare alberi per ogni servizio venduto, rimuovendo ulteriore CO2 dall'atmosfera."
+      },
+      "carbon_stats": {
+        "trees_planted": "Alberi Piantati",
+        "co2_offset": "Compensazione CO2",
+        "reforested_land": "Ettari di Terreno Riforestato",
+        "since_november_2024": "Da Novembre 2024",
+        "kg_of_co2": "Kg di CO2"
+      },
+      "landing_description": "Pixel Services offre gamehosting economico con server ad alte prestazioni dotati di CPU Ryzen di ultima generazione, memorie RAM DDR5 ed SSD NVMe. I nostri piani includono una robusta protezione DDoS, backup giornalieri e rete veloce, il tutto facilmente gestibile tramite una dashboard intuitiva. Hosting di qualità ad un prezzo accessibile sostenendo il nostro impegno per la sostenibilità.",
+      "explore_plans": "Esplora i piani",
+      "navigation": {
+        "home": "Home",
+        "services": "Servizi",
+        "pricing": "Prezzi",
+        "about": "Chi Siamo",
+        "contact": "Contatti",
+        "faq": "FAQ",
+        "support": "Supporto"
+      },
+      "actions": {
+        "login": "Accedi",
+        "register": "Registrati",
+        "submit": "Invia",
+        "confirm": "Conferma",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "back": "Indietro",
+        "next": "Avanti"
+      },
+      "loading": "Caricamento...",
+      "error": "Errore",
+      "success": "Successo",
+      "welcome": "Benvenuto/a",
+      "manage": "Gestisci",
+      "join_discord": "Unisciti a Discord",
+      "scroll_down": "Scorri verso il basso..."
+    },
+    "services": {
+      "description": "Esplora la nostra gamma di servizi di hosting ad alte prestazioni progettati per soddisfare le tue esigenze. Dai server di gioco all'hosting web, abbiamo quello che fa per te."
+    },
+    "dashboard": {
+      "overview": "Panoramica",
+      "recent_emails": "Email Recenti",
+      "recent_emails_not_found": "Nessuna email recente trovata.",
+      "services": {
+        "title": "I Tuoi Servizi",
+        "description": "Un elenco dei tuoi servizi attuali e del loro stato.",
+        "order_new": "Ordina un servizio",
+        "active_services": "Servizi Attivi",
+        "active_services_description": "Totale dei servizi attivi."
+      },
+      "settings": {
+        "title": "Impostazioni",
+        "save_all": "Salva Tutto",
+        "avatar": {
+          "title": "Avatar",
+          "upload": "Carica",
+          "upload_description": "Clicca sull'avatar per caricarne uno nuovo."
+        },
+        "general_information": {
+          "username": "Nome Utente",
+          "email": "Email",
+          "first_name": "Nome",
+          "last_name": "Cognome"
+        },
+        "reset_password": {
+          "title": "Reimposta Password",
+          "description": "Ti invieremo un'email con un link per reimpostare la tua password al tuo indirizzo email.",
+          "send": "Invia"
+        }
+      },
+      "affiliates": {
+        "title": "I Tuoi Affiliati",
+        "not_eligible": "Non sei ancora idoneo/a per il programma affiliati.",
+        "request": "Richiedi l'affiliazione",
+        "modal": {
+          "title": "Richiedi lìaffiliazione",
+          "description": "Dicci perché.",
+          "placeholder": "Spiegaci perché vuoi diventare un affiliato/a.",
+          "footer": "Includi eventuali link utili, parlaci di te. Sarai avvisato/a quando lo stato della tua richiesta sarà aggiornato."
+        }
+      },
+      "balance": {
+        "title": "Saldo",
+        "description": "Gestisci il tuo saldo.",
+        "top_up": "Ricarica",
+        "modal": {
+          "title": "Ricarica Saldo",
+          "amount_specification": "Importo che vuoi aggiungere al tuo saldo:",
+          "footer": "L'importo verrà aggiunto al tuo saldo immediatamente dopo il pagamento.",
+          "continue_to_payment": "Continua al Pagamento"
+        }
+      },
+      "tickets": {
+        "title": "Ticket di Supporto",
+        "description": "Ricevi aiuto dal nostro team di supporto.",
+        "search_label": "Cerca ticket...",
+        "filters": {
+          "all": "Tutti i Ticket",
+          "open": "Ticket Aperti",
+          "closed": "Ticket Chiusi"
+        },
+        "priority": {
+          "low": "Bassa",
+          "medium": "Media",
+          "high": "Alta",
+          "urgent": "Urgente"
+        },
+        "modal": {
+          "title": "Crea Ticket di Supporto",
+          "description": "Descrivi il tuo problema e ti aiuteremo a risolverlo.",
+          "subject": "Oggetto",
+          "message": "Messaggio",
+          "tips": [
+            "Sii specifico su ciò che stai riscontrando",
+            "Includi eventuali messaggi di errore che hai ricevuto",
+            "Menziona quali passaggi hai già provato",
+            "Non includere informazioni personali (non te le chiederemo mai)",
+            "Sii paziente, ti risponderemo il prima possibile"
+          ],
+          "create_button": "Crea Ticket"
+        },
+        "actions": {
+          "close": "Chiudi Ticket",
+          "reopen": "Riapri Ticket",
+          "new": "Nuovo Ticket"
+        }
+      },
+      "billing": {
+        "title": "Fatturazione",
+        "invoices": "Fatture",
+        "invoices_description": "Fatture totali."
+      },
+      "service": {
+        "pterodactyl": {
+          "overview": "Panoramica",
+          "files": "File",
+          "properties": "Proprietà",
+          "databases": "Database",
+          "schedules": "Pianificazioni",
+          "backups": "Backup",
+          "console": {
+            "type_a_command": "Digita un comando...",
+            "send": "Invia",
+            "clear": "Pulisci"
+          },
+          "actions": {
+            "start": "Avvia",
+            "stop": "Arresta",
+            "restart": "Riavvia",
+            "kill": "Termina",
+            "backup": "Backup",
+            "restore": "Ripristina",
+            "delete": "Elimina"
+          },
+          "metrics": {
+            "status": {
+              "online": "Online",
+              "stopped": "Fermato",
+              "starting": "In avvio",
+              "stopping": "In arresto",
+              "restarting": "In riavvio",
+              "killing": "In terminazione"
+            },
+            "cpu": "Utilizzo CPU",
+            "memory": "Utilizzo Memoria",
+            "disk": "Utilizzo Spazio Disco",
+            "network": "Rete",
+            "uptime": "Tempo di Attività"
+          }
+        }
+      },
+      "profile": "Profilo",
+      "logout": "Esci",
+      "admin_panel": "Pannello Admin"
+    },
+    "auth": {
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Conferma Password",
+      "forgot_password": "Password dimenticata?",
+      "reset_password": "Reimposta Password",
+      "verify_email": "Verifica Email",
+      "verification_code": "Codice di Verifica",
+      "first_name": "Nome",
+      "last_name": "Cognome",
+      "username": "Nome Utente",
+      "already_have_account": "Hai già un account?",
+      "dont_have_account": "Non hai un account?"
+    },
+    "errors": {
+      "page_not_found": "Pagina non trovata",
+      "unauthorized": "Non autorizzato",
+      "server_error": "Errore del server",
+      "invalid_credentials": "Credenziali non valide",
+      "required_field": "Questo campo è obbligatorio",
+      "password_mismatch": "Le password non coincidono",
+      "invalid_email": "Indirizzo email non valido",
+      "generic_error": "Qualcosa è andato storto"
+    }
+  }

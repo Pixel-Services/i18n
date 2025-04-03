@@ -1,0 +1,224 @@
+{
+    "common": {
+      "carbon_negative": "Ujemna Emisja",
+      "carbon_negative_goal": {
+        "title": "Nasz Cel Ujemnej Emisyjności Węglowej",
+        "description": "Serwery, które posiadamy, są zasilane tylko i wyłącznie zielonymi, odnawialnymi źródłami energii. Współpracujemy z firmami, które pozwalają nam sadzić drzewa za każdą usługę, którą udostępniamy, w efekcie pozbywając się dodatkowego CO2 z atmosfery."
+      },
+      "carbon_stats": {
+        "trees_planted": "Zasadzone Drzewa",
+        "co2_offset": "Redukcja CO2",
+        "reforested_land": "Akre Zalesionych Gruntów",
+        "since_november_2024": "Od Listopada 2024",
+        "kg_of_co2": "Kilogramy CO2"
+      },
+      "landing_description": "Pixel Services oferuje tanie usługi w zakresie hostingu serwerów gier komputerowych, usługi są zasilane wydajnymi procesorami z serii Ryzen, Intel, oraz EPYC. Pakiety zawierają zaawansowaną ochronę przeciwko atakom DDoS, codziennie kopie zapasowe, oraz szybkie łącze internetowe. Wszystko jest zarządzanie za pomocą intuicyjnego panelu. Odkryj usługi premium dostępne w niskobudżetowych cenach i wspieraj nasze zaangażowanie w zrównoważony rozwój.",
+      "explore_plans": "Odkryj Dostępne Pakiety",
+      "navigation": {
+        "home": "Strona Główna",
+        "services": "Usługi",
+        "pricing": "Cennik",
+        "about": "O Nas",
+        "contact": "Kontakt",
+        "faq": "FAQ",
+        "support": "Wsparcie"
+      },
+      "actions": {
+        "login": "Logowanie",
+        "register": "Rejestracja",
+        "submit": "Prześlij",
+        "confirm": "Potwierdź",
+        "cancel": "Anuluj",
+        "save": "Zapisz",
+        "delete": "Usuń",
+        "edit": "Edytuj",
+        "back": "Powrót",
+        "next": "Następna Strona",
+        "send": "Wyślij"
+      },
+      "loading": "Ładowanie...",
+      "error": "Błąd",
+      "success": "Sukces",
+      "welcome": "Witaj",
+      "manage": "Zarządzaj",
+      "join_discord": "Dołącz do serwera Discord",
+      "scroll_down": "Zjedź na dół..."
+    },
+    "services": {
+      "description": "Odkryj szeroką gamę wydajnych usług hostingowych zaprojektowanych w celu spełnienia twoich oczekiwań. Od serwerów gier - po hosting stron WWW, mamy wszystko czego potrzebujesz.",
+      "list": {
+        "minecraft": "Serwer Minecraft",
+        "terraria": "Serwer Terraria",
+        "discord": "Bot Discord",
+        "ark": "Serwer ARK"
+      }
+    },
+    "dashboard": {
+      "overview": "Podsumowanie",
+      "recent_emails": "Najnowsze E-maile",
+      "recent_emails_not_found": "Brak nowych e-maili.",
+      "services": {
+        "title": "Twoje Usługi",
+        "description": "Lista twoich obecnych usług, oraz ich status.",
+        "order_new": "Zamów Nową Usługę",
+        "active_services": "Aktywne Usługi",
+        "active_services_description": "Liczba aktywnych usług."
+      },
+      "settings": {
+        "title": "Ustawienia",
+        "save_all": "Zapisz Wszystko",
+        "avatar": {
+          "title": "Awatar",
+          "upload": "Zmień",
+          "upload_description": "Kliknij awatar, aby go zmienić."
+        },
+        "general_information": {
+          "username": "Nazwa Użytkownika",
+          "email": "E-mail",
+          "first_name": "Imię",
+          "last_name": "Nazwisko"
+        },
+        "reset_password": {
+          "title": "Zresetuj Hasło",
+          "description": "Wyślemy ci wiadomość e-mail z linkiem to zresetowanie hasła."
+        }
+      },
+      "affiliates": {
+        "title": "Twoje Zaproszenia",
+        "not_eligible": "Nie możesz jeszcze skorzystać z programu partnerskiego.",
+        "request": "Wyślij Zgłoszenie",
+        "modal": {
+          "title": "Wyślij Zgłoszenie",
+          "description": "Powiedz nam czemu.",
+          "placeholder": "Powiedz nam dlaczego chciałbyś dołączyć do programu partnerskiego.",
+          "footer": "Dołącz pomocne linki, opowiedz nam o sobie. Dostaniesz odpowiedź, gdy twoje zgłoszenie zostanie zaaktualizowane."
+        }
+      },
+      "balance": {
+        "title": "Portfel",
+        "description": "Wyświetl obecny stan porfela lub go uzupełnij.",
+        "top_up": "Wpłać",
+        "modal": {
+          "title": "Wpłata Środków",
+          "amount_specification": "Kwota, którą chcesz wpłacic:",
+          "footer": "Kwota zostanie dodana do twojego portfela od razu po zakończeniu transakcji.",
+          "continue_to_payment": "Przejdź do Płatności"
+        }
+      },
+      "tickets": {
+        "title": "Zgłoszenia Wsparcia",
+        "description": "Zapytaj naszych specjalistów o pomoc.",
+        "search_label": "Szukaj zgłoszeń...",
+        "showing_tickets": "Pokazuję {{ticketsLength}} z {{totalItems}} zgłoszeń",
+        "type_reply": "Wpisz swoją odpowiedź...",
+        "assigned_to": "Przydzielono do",
+        "filters": {
+          "all": "Wszystkie Zgłoszenia",
+          "open": "Otwarte Zgłoszenia",
+          "closed": "Zamknięte Zgłoszenia"
+        },
+        "priority": {
+          "low": "Niski",
+          "medium": "Średni",
+          "high": "Wysoki",
+          "urgent": "Pilny"
+        },
+        "status": {
+          "open": "Otwarte",
+          "closed": "Zamknięte",
+          "open_tickets": "Otwarte Zgłoszenia",
+          "closed_tickets": "Zamknięte Zgłoszenia"
+        },
+        "modal": {
+          "title": "Utwórz Zgłoszenie",
+          "description": "Opisz swój problem, abyśmy mogli pomóc ci go rozwiązać.",
+          "subject": "Temat",
+          "message": "Wiadomość",
+          "tips": [
+            "Opisz dokładnie swój problem",
+            "Dodaj wszystkie wiadomości o błędach",
+            "Opisz kroki które już podjąłeś",
+            "Nie zawieraj żadnych danych osobowych (nigdy cię o nie nie zapytamy)",
+            "Zachowaj cierpliwość, pomożemy najszybciej jak możemy"
+          ],
+          "create_button": "Stwórz Zgłoszenie"
+        },
+        "actions": {
+          "close": "Zamknij Zgłoszenie",
+          "reopen": "Otwórz Zgłoszenie Ponownie",
+          "new": "Nowe Zgłoszenie"
+        }
+      },
+      "billing": {
+        "title": "Rozliczenia",
+        "invoices": "Faktury",
+        "invoices_description": "Wszystkie twoje faktury."
+      },
+      "service": {
+        "pterodactyl": {
+          "overview": "Podsumowanie",
+          "files": "Pliki",
+          "properties": "Właściwości",
+          "databases": "Bazy Danych",
+          "schedules": "Planowanie Zadania",
+          "backups": "Kopie Zapasowe",
+          "console": {
+            "type_a_command": "Wpisz komendę...",
+            "clear": "Wyczyść"
+          },
+          "actions": {
+            "start": "Uruchom",
+            "stop": "Zatrzymaj",
+            "restart": "Uruchom Ponownie",
+            "kill": "Wymuś Zatrzymanie",
+            "backup": "Kopia Zapasowa",
+            "restore": "Przywróć",
+            "delete": "Usuń"
+          },
+          "metrics": {
+            "status_label": "Status",
+            "status": {
+              "online": "Dostępny",
+              "offline": "Zatrzymany",
+              "starting": "Uruchamianie",
+              "stopping": "Zatrzymywanie",
+              "restarting": "Uruchamianie Ponowne",
+              "killing": "Wymuszanie Zatrzymania"
+            },
+            "cpu": "Zużycie Procesora",
+            "memory": "Zużycie Pamięci",
+            "disk": "Zużycie Dysku",
+            "network": "Sieć",
+            "uptime": "Czas Pracy"
+          }
+        }
+      },
+      "profile": "Profil",
+      "logout": "Wyloguj",
+      "admin_panel": "Panel Administratora"
+    },
+    "auth": {
+      "email": "E-mail",
+      "password": "Hasło",
+      "confirm_password": "Potwierdź Hasło",
+      "forgot_password": "Zapomniałeś Hasła?",
+      "reset_password": "Zresetuj Hasło",
+      "verify_email": "Zweryfikuj E-mail",
+      "verification_code": "Kod Weryfikacyjny",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "username": "Nazwa Użytkownika",
+      "already_have_account": "Posiadasz już konto?",
+      "dont_have_account": "Nie posiadasz konta?"
+    },
+    "errors": {
+      "page_not_found": "Nie znaleziono strony",
+      "unauthorized": "Brak autoryzacji",
+      "server_error": "Błąd serwera",
+      "invalid_credentials": "Niepoprawne dane",
+      "required_field": "Ta rubryka jest wymagana",
+      "password_mismatch": "Hasła się nie zgadzają",
+      "invalid_email": "Nieprawidłowy adres e-mail",
+      "generic_error": "Coś poszło nie tak"
+    }
+  }

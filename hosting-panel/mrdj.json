@@ -1,0 +1,216 @@
+{
+    "common": {
+      "carbon_negative": "Nqisan dyal carbon",
+      "carbon_negative_goal": {
+        "title": "lhadaf dyalna nqisan carbon",
+        "description": "lservers li kanhostiw khdamin 100% bta9a khadra o tajdidiya. Kanxdmou m3a sherkat li katsm7 lina nghrso shjra 3la koul service li kanhostiw, o hadchi kay3ni blli kanna9so CO2 mn ljaw."
+      },
+      "carbon_stats": {
+        "trees_planted": "Shjrat li tghrso",
+        "co2_offset": "T3wid dyal CO2",
+        "reforested_land": "Hektarat dyal lard li t3awed tghrs",
+        "since_november_2024": "Mn Novamber 2024",
+        "kg_of_co2": "Kg dyal CO2"
+      },
+      "landing_description": "Pixel Services 3ando hosting btaman mnasib, m3a servers qwiya fiyha Ryzen, Intel, o EPYC CPUs. lplans dyalna fihom 7imaya 9wiya mn DDoS, backup yawmi, o networking rapide, kamlin bdashboard sahla f list3mal. Tasti3 hosting bi maw9if mumtaz w taman mnasib o m3a d3m dyalna ldawmiya.",
+      "explore_plans": "T9ashaf lplans",
+      "navigation": {
+        "home": "lwajha",
+        "services": "Les order",
+        "pricing": "Taman",
+        "about": "3lina",
+        "contact": "Twasl m3ana",
+        "faq": "FAQ",
+        "support": "lmosa3ada"
+      },
+      "actions": {
+        "login": "Dkhoul",
+        "register": "Tsdjil",
+        "submit": "Sift",
+        "confirm": "Ayyid",
+        "cancel": "Ansa7",
+        "save": "7fed",
+        "delete": "7yd",
+        "edit": "S7i7",
+        "back": "Rje3",
+        "next": "Mchi lfuq"
+      },
+      "loading": "Kaytch7n...",
+      "error": "Chi moshkil",
+      "success": "Naja7",
+      "welcome": "Mar7ba",
+      "manage": "Dir ltadbir",
+      "join_discord": "Dkhoul Discord",
+      "scroll_down": "Nzl lta7t..."
+    },
+    "services": {
+      "description": "T9ashaf l'order dyalna li khasak, mn hosting dyal l3ab 7ta lweb hosting.",
+      "list": {
+        "minecraft": "Server dyal Minecraft",
+        "terraria": "Server dyal Terraria",
+        "discord": "Bot dyal Discord",
+        "ark": "Server dyal ARK"
+      }
+    },
+    "dashboard": {
+      "overview": "Dashboard",
+      "recent_emails": "Emails lakhrin",
+      "recent_emails_not_found": "Ma kaynch ay email jdid.",
+      "services": {
+        "title": "Les order dyawlk",
+        "description": "Liste dyal les order li 3andk o lwad3 dyalhum.",
+        "order_new": "Placi order jdid",
+        "active_services": "Les order lm5adamin",
+        "active_services_description": "l3adad dyal les order lm5adamin."
+      },
+      "settings": {
+        "title": "Lt3dilat",
+        "save_all": "7fed koulchi",
+        "avatar": {
+          "title": "Avatar",
+          "upload": "Upload",
+          "upload_description": "Klik 3la lavatar bach tbddlo."
+        },
+        "general_information": {
+          "username": "Username",
+          "email": "Email",
+          "first_name": "Smeeya",
+          "last_name": "Kneeya"
+        },
+        "reset_password": {
+          "title": "Bddl lcode",
+          "description": "Ghad nsifto lik email bi link bach tbddl lcode dyalk.",
+          "send": "Sift"
+        }
+      },
+      "affiliates": {
+        "title": "lmotafri3in",
+        "not_eligible": "Mazal ma ymatilkch tkon afiliye.",
+        "request": "Talab laffiliation",
+        "modal": {
+          "title": "Talab laffiliation",
+          "description": "Goul lina 3lach bghiti tkon afiliye.",
+          "placeholder": "Ktb 3lach bghiti tkon afiliye.",
+          "footer": "Zid chi lienat mofida, w goullina chi 7aja 3lik. Ghad t3rf lwad3 dyal ltalab dyalk mnin ytbdl."
+        }
+      },
+      "balance": {
+        "title": "lrassid",
+        "description": "Shouf lmablagh li 3andk o zid flrassid dyalk.",
+        "top_up": "Zid lrassid",
+        "modal": {
+          "title": "Zid lrassid",
+          "amount_specification": "Sh7al bghiti tzid f rassid dyalk:",
+          "footer": "lflouss ghad tzad lik mn b3d l'order dyal t-sdiyad.",
+          "continue_to_payment": "Kml ltasdiya"
+        }
+      },
+      "tickets": {
+        "title": "ltickets dyal lmosa3ada",
+        "description": "Twasl m3a lsupport team dyalna.",
+        "search_label": "Cherchi f tickets...",
+        "filters": {
+          "all": "Jami3 ltickets",
+          "open": "ltickets lm7lulin",
+          "closed": "ltickets lmsdudin"
+        },
+        "priority": {
+          "low": "Tadila",
+          "medium": "Motawasit",
+          "high": "3ali",
+          "urgent": "Mosta3jil"
+        },
+        "modal": {
+          "title": "7ol ticket lmosa3ada",
+          "description": "Sift lina ticket w ghad n3awnok.",
+          "subject": "lmowdou3",
+          "message": "Rasala",
+          "tips": [
+            "Koun da9i9 f lmochkil dyalk",
+            "Ila kayn chi message dyal lkhata, zidou",
+            "Chniya l7oloul li jarbti",
+            "Matktbch des d'informations privées",
+            "Shwia dyal sbr, ghad nrdou 3lik f a9rab waqt"
+          ],
+          "create_button": "7ol ticket"
+        },
+        "actions": {
+          "close": "Sdd lticket",
+          "reopen": "7ol lticket",
+          "new": "Ticket jdid"
+        }
+      },
+      "billing": {
+        "title": "lfaturat",
+        "invoices": "lfaturat",
+        "invoices_description": "l3adad dyal lfaturat."
+      },
+      "service": {
+        "pterodactyl": {
+          "overview": "Overview",
+          "files": "lmilafat",
+          "properties": "lkhwas",
+          "databases": "lma3lomat",
+          "schedules": "lmawa3id",
+          "backups": "lnsakh li7tiyatya",
+          "console": {
+            "type_a_command": "Ktb amr...",
+            "send": "Sift",
+            "clear": "N9i"
+          },
+          "actions": {
+            "start": "Bda",
+            "stop": "W9f",
+            "restart": "A3id t-chghil",
+            "kill": "A9til",
+            "backup": "Nsakh i7tiyati",
+            "restore": "A3id listi3mal",
+            "delete": "7yd"
+          },
+          "metrics": {
+            "status": {
+              "online": "Mshghul",
+              "stopped": "Moqouf",
+              "starting": "Kaybd",
+              "stopping": "Kayw9f",
+              "restarting": "Kay3id lchghil",
+              "killing": "Kay9til"
+            },
+            "cpu": "Ist3mal CPU",
+            "memory": "Ist3mal RAM",
+            "disk": "Ist3mal lkhzan",
+            "network": "lnetwork",
+            "uptime": "W9t lchghil"
+          }
+        }
+      },
+      "profile": "lprofile",
+      "logout": "Khroj",
+      "admin_panel": "Panneau d'administration"
+    },
+    "auth": {
+      "email": "Email",
+      "password": "lcode",
+      "confirm_password": "Ayyid lcode",
+      "forgot_password": "Nseyt lcode?",
+      "reset_password": "Bddl lcode",
+      "verify_email": "Ayyid lemail",
+      "verification_code": "lcode dyal t-2akid",
+      "first_name": "lism lawal",
+      "last_name": "lism lakhri",
+      "username": "lism dyalk",
+      "already_have_account": "3andk compte deja?",
+      "dont_have_account": "Mazalk m3andkch compte?"
+    },
+    "errors": {
+      "page_not_found": "Saf7a makaynach",
+      "unauthorized": "Machi mdhn lik",
+      "server_error": "Chi moshkil f lserver",
+      "invalid_credentials": "lma3lomat ghalta",
+      "required_field": "Had lma3loma daroriya",
+      "password_mismatch": "lcodes machi b7al b7al",
+      "invalid_email": "Email machi s7i7",
+      "generic_error": "Chi moshkil w9a3"
+    }
+  }
+  
