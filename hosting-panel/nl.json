@@ -1,216 +1,224 @@
 {
-    "common": {
-      "carbon_negative": "Carbon Negative",
-      "carbon_negative_goal": {
-        "title": "Our Carbon Negative Goal",
-        "description": "The servers we host are powered entirely by green, renewable energy. We partner with companies that let us plant trees for every service we host, effectively removing additional CO2 from the atmosphere."
-      },
-      "carbon_stats": {
-        "trees_planted": "Trees Planted",
-        "co2_offset": "CO2 Offset",
-        "reforested_land": "Acres of Reforested Land",
-        "since_november_2024": "Since November 2024",
-        "kg_of_co2": "Kg of CO2"
-      },
-      "landing_description": "Pixel Services offers affordable game hosting featuring high-performance servers powered by top of the notch Ryzen CPUs, DDR5 RAM and NVMe SSDs. Our plans include strong DDoS protection, daily backups, and fast networking, all easily managed through an intuitive dashboard. Premium hosting features at a budget-friendly price while supporting our commitment to sustainability.",
-      "explore_plans": "Explore Plans",
-      "navigation": {
-        "home": "Home",
-        "services": "Services",
-        "pricing": "Pricing",
-        "about": "About",
-        "contact": "Contact",
-        "faq": "FAQ",
-        "support": "Support"
-      },
-      "actions": {
-        "login": "Login",
-        "register": "Register",
-        "submit": "Submit",
-        "confirm": "Confirm",
-        "cancel": "Cancel",
-        "save": "Save",
-        "delete": "Delete",
-        "edit": "Edit",
-        "back": "Back",
-        "next": "Next"
-      },
-      "loading": "Loading...",
-      "error": "Error",
-      "success": "Success",
-      "welcome": "Welcome",
-      "manage": "Manage",
-      "join_discord": "Join Discord",
-      "scroll_down": "Scroll down..."
+  "common": {
+    "carbon_negative": "Koolstofnegatief",
+    "carbon_negative_goal": {
+      "title": "Onze Koolstofnegatieve doelstelling",
+      "description": "De servers die wij aanbieden zijn volledig aangedreven door groene, hernieuwbare energie. Wij werken samen met bedrijven die bomen planten voor elke dienst die wij aanbieden. Zo halen we effectief extra CO2 uit de atmosfeer."
     },
+    "carbon_stats": {
+      "trees_planted": "Bomen gepland",
+      "co2_offset": "CO2-compensatie",
+      "reforested_land": "Hectares Van Herbeplant Bosgebied",
+      "since_november_2024": "Sinds November 2024",
+      "kg_of_co2": "Kg van CO2"
+    },
+    "landing_description": "Pixel Services biedt betaalbare game-hosting met krachtige servers, waaronder Ryzen-, Intel- en EPYC-CPU's. Onze plannen bevatten sterke DDoS-berscherming, dagelijkse back-ups en een snel netwerk. Dit is allemaal eenvoudig te behren via ons intuïtief dashboard. Ervaar premium hostingkenmerken tegen een voordelige prijs, terwijl je onze inzet voor duurzaamheid ondersteunt.",
+    "explore_plans": "Zie plannen",
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "pricing": "prijzen",
+      "about": "Over ons",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "support": "Support"
+    },
+    "actions": {
+      "login": "Inloggen",
+      "register": "Registreren",
+      "submit": "Submit",
+      "confirm": "Bevestigen",
+      "cancel": "Annuleren",
+      "save": "Opslaan",
+      "delete": "Verwijderen",
+      "edit": "Bewerken",
+      "back": "Terug",
+      "next": "Volgende",
+      "send": "Verzenden"
+    },
+    "loading": "Laden...",
+    "error": "foutmeldingen",
+    "success": "Succes",
+    "welcome": "welkom",
+    "manage": "Beheer",
+    "join_discord": "Word lid van onze Discord",
+    "scroll_down": "Scroll naar onder..."
+  },
+  "services": {
+    "description": "Verken ons aanbod van high-performance hostingdiensten die zijn ontworpen om aan jouw behoeften te voldoen. Van game-servers tot webhosting, wij bieden de oplossing die je zoekt.",
+    "list": {
+      "minecraft": "Minecraft Server",
+      "terraria": "Terraria Server",
+      "discord": "Discord Bot",
+      "ark": "ARK Server"
+    }
+  },
+  "dashboard": {
+    "overview": "Overzicht",
+    "recent_emails": "Recente E-mails",
+    "recent_emails_not_found": "Geen recente e-mails gevonden.",
     "services": {
-      "description": "Explore our range of high-performance hosting services designed to meet your needs. From game servers to web hosting, we've got you covered.",
-      "list": {
-        "minecraft": "Minecraft Server",
-        "terraria": "Terraria Server",
-        "discord": "Discord Bot",
-        "ark": "ARK Server"
+      "title": "Jouw Services",
+      "description": "Een lijst van je huidige services en hun status.",
+      "order_new": "Bestel Een Nieuwe Service",
+      "active_services": "Actieve Services",
+      "active_services_description": "Totale actieve services."
+    },
+    "settings": {
+      "title": "Instellingen",
+      "save_all": "Alles Opslaan",
+      "avatar": {
+        "title": "profielafbeelding",
+        "upload": "upload",
+        "upload_description": "Klik op je profielafbeelding om een nieuwe te uploaden."
+      },
+      "general_information": {
+        "username": "Gebruikersnaam",
+        "email": "E-mail",
+        "first_name": "Voornaam",
+        "last_name": "Acternaam"
+      },
+      "reset_password": {
+        "title": "Reset Wachtwoord",
+        "description": "We zullen een e-mail sturen met een link om je wachtwoord te resetten."
       }
     },
-    "dashboard": {
-      "overview": "Overview",
-      "recent_emails": "Recent Emails",
-      "recent_emails_not_found": "No recent emails found.",
-      "services": {
-        "title": "Your Services",
-        "description": "A list of your current services and their status.",
-        "order_new": "Order New Service",
-        "active_services": "Active Services",
-        "active_services_description": "Total active services."
+    "affiliates": {
+      "title": "Jouw Affiliates",
+      "not_eligible": "Je komt nog niet in aanmerking om een Affiliate te worden.",
+      "request": "Aanvraag Affiliates",
+      "modal": {
+        "title": "Aanvraag Affiliates",
+        "description": "Vertel ons waarom.",
+        "placeholder": "Vertel ons alstublieft waarom je een affiliate wilt worden.",
+        "footer": "Voeg alle nuttige links toe en vertel ons iets over jezelf. Je wordt op de hoogte gesteld wanneer de status van je aanvraag is behandeld."
+      }
+    },
+    "balance": {
+      "title": "Balans",
+      "description": "Bekijk je huidige saldo en vul je account bij.",
+      "top_up": "Opwaarderen",
+      "modal": {
+        "title": "Saldo Opwaarderen",
+        "amount_specification": "Bedrag dat je aan je saldo wilt toevoegen:",
+        "footer": "Het bedrag wordt direct aan je saldo toegevoegd na een succesvolle betaling.",
+        "continue_to_payment": "Doorgaan naar Betaling"
+      }
+    },
+    "tickets": {
+      "title": "Supporttickets",
+      "description": "Krijg hulp van ons support team.",
+      "search_label": "Zoek Tickets...",
+      "showing_tickets": "Toont {{ticketsLength}} van de {{totalItems}} verzoeken",
+      "type_reply": "Typ je antwoord...",
+      "assigned_to": "Toegewezen aan",
+      "filters": {
+        "all": "Alle Tickets",
+        "open": "Open Tickets",
+        "closed": "Gesloten Tickets"
       },
-      "settings": {
-        "title": "Settings",
-        "save_all": "Save All",
-        "avatar": {
-          "title": "Avatar",
-          "upload": "Upload",
-          "upload_description": "Click the avatar to upload a new one."
-        },
-        "general_information": {
-          "username": "Username",
-          "email": "Email",
-          "first_name": "First Name",
-          "last_name": "Last Name"
-        },
-        "reset_password": {
-          "title": "Reset Password",
-          "description": "We'll send an email with a link to reset your password to your email.",
-          "send": "Send"
-        }
+      "priority": {
+        "low": "Laag",
+        "medium": "Middelmatig",
+        "high": "Hoog",
+        "urgent": "Urgent"
       },
-      "affiliates": {
-        "title": "Your Affiliates",
-        "not_eligible": "You are not eligible to affiliate yet.",
-        "request": "Request Affiliate",
-        "modal": {
-          "title": "Request Affiliate",
-          "description": "Tell us why.",
-          "placeholder": "Please tell us why you want to be an affiliate.",
-          "footer": "Include any helpful links, tell us about yourself. You will be notified when your request status has been updated."
-        }
+      "status": {
+        "open": "Open",
+        "closed": "Gesloten",
+        "open_tickets": "Open Tickets",
+        "closed_tickets": "Gesloten Tickets"
       },
-      "balance": {
-        "title": "Balance",
-        "description": "View your current balance and top up your account.",
-        "top_up": "Top Up",
-        "modal": {
-          "title": "Top Up Balance",
-          "amount_specification": "Amount you want to add to your balance:",
-          "footer": "The amount will be added to your balance immediately after successful payment.",
-          "continue_to_payment": "Continue to Payment"
-        }
+      "modal": {
+        "title": "Creëer Een Supportticket",
+        "description": "Beschrijf je probleem en wij helpen je het op te lossen.",
+        "subject": "Onderwerp",
+        "message": "Bericht",
+        "tips": [
+          "Wees specifiek over wat je ervaart",
+          "Voeg eventuele foutmeldingen toe die je hebt ontvangen",
+          "Noem welke stappen je al hebt geprobeerd",
+          "Zorg ervoor dat je geen persoonlijke informatie opneemt (we zullen hier nooit om vragen)",
+          "Wees geduldig, we nemen zo snel mogelijk contact met je op"
+        ],
+        "create_button": "Creëer Ticket"
       },
-      "tickets": {
-        "title": "Support Tickets",
-        "description": "Get help from our support team.",
-        "search_label": "Search tickets...",
-        "filters": {
-          "all": "All Tickets",
-          "open": "Open Tickets",
-          "closed": "Closed Tickets"
-        },
-        "priority": {
-          "low": "Low",
-          "medium": "Medium",
-          "high": "High",
-          "urgent": "Urgent"
-        },
-        "modal": {
-          "title": "Create Support Ticket",
-          "description": "Describe your issue and we'll help you resolve it.",
-          "subject": "Subject",
-          "message": "Message",
-          "tips": [
-            "Be specific about what you're experiencing",
-            "Include any error messages you've received",
-            "Mention what steps you've already tried",
-            "Don't include any personal information (we will never ask for it)",
-            "Be patient, we'll get back to you as soon as possible"
-          ],
-          "create_button": "Create Ticket"
+      "actions": {
+        "close": "Sluit Ticket",
+        "reopen": "Heropen Ticket",
+        "new": "Nieuwe Ticket"
+      }
+    },
+    "billing": {
+      "title": "Facturering",
+      "invoices": "Facturen",
+      "invoices_description": "Totale Facturen."
+    },
+    "service": {
+      "pterodactyl": {
+        "overview": "Overview",
+        "files": "Bestanden",
+        "properties": "Eigenschappen",
+        "databases": "Databases",
+        "schedules": "Eigenschappen",
+        "backups": "Back-ups",
+        "console": {
+          "type_a_command": "Typ een commando...",
+          "clear": "Wis"
         },
         "actions": {
-          "close": "Close Ticket",
-          "reopen": "Reopen Ticket",
-          "new": "New Ticket"
-        }
-      },
-      "billing": {
-        "title": "Billing",
-        "invoices": "Invoices",
-        "invoices_description": "Total invoices."
-      },
-      "service": {
-        "pterodactyl": {
-          "overview": "Overview",
-          "files": "Files",
-          "properties": "Properties",
-          "databases": "Databases",
-          "schedules": "Schedules",
-          "backups": "Backups",
-          "console": {
-            "type_a_command": "Type a command...",
-            "send": "Send",
-            "clear": "Clear"
+          "start": "Start",
+          "stop": "Stop",
+          "restart": "Herstart",
+          "kill": "Stoppen",
+          "backup": "Back-up",
+          "restore": "Herstel",
+          "delete": "Verwijder"
+        },
+        "metrics": {
+          "status_label": "Status",
+          "status": {
+            "online": "Online",
+            "offline": "offline",
+            "starting": "Bezig Met Starten",
+            "stopping": "Bezig Met Stoppen",
+            "restarting": "Bezig met Hestarten",
+            "killing": "Proces Stoppen"
           },
-          "actions": {
-            "start": "Start",
-            "stop": "Stop",
-            "restart": "Restart",
-            "kill": "Kill",
-            "backup": "Backup",
-            "restore": "Restore",
-            "delete": "Delete"
-          },
-          "metrics": {
-            "status": {
-              "online": "Online",
-              "stopped": "Stopped",
-              "starting": "Starting",
-              "stopping": "Stopping",
-              "restarting": "Restarting",
-              "killing": "Killing"
-            },
-            "cpu": "CPU Usage",
-            "memory": "Memory Usage",
-            "disk": "Storage Usage",
-            "network": "Network",
-            "uptime": "Uptime"
-          }
+          "cpu": "CPU Gebruik",
+          "memory": "geheugen Gebruik",
+          "disk": "Opslag Gebruik",
+          "network": "Netwerk",
+          "uptime": "Actieve tijd"
         }
-      },
-      "profile": "Profile",
-      "logout": "Logout",
-      "admin_panel": "Admin Panel"
+      }
     },
-    "auth": {
-      "email": "Email",
-      "password": "Password",
-      "confirm_password": "Confirm Password",
-      "forgot_password": "Forgot Password?",
-      "reset_password": "Reset Password",
-      "verify_email": "Verify Email",
-      "verification_code": "Verification Code",
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "username": "Username",
-      "already_have_account": "Already have an account?",
-      "dont_have_account": "Don't have an account?"
-    },
-    "errors": {
-      "page_not_found": "Page not found",
-      "unauthorized": "Unauthorized",
-      "server_error": "Server error",
-      "invalid_credentials": "Invalid credentials",
-      "required_field": "This field is required",
-      "password_mismatch": "Passwords don't match",
-      "invalid_email": "Invalid email address",
-      "generic_error": "Something went wrong"
-    }
+    "profile": "Profiel",
+    "logout": "Uitloggen",
+    "admin_panel": "Admin Paneel"
+  },
+  "auth": {
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "confirm_password": "Bevestig Wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "reset_password": "Reset Wachtwoord",
+    "verify_email": "Verifieër E-mail",
+    "verification_code": "Verificatie Code",
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "username": "Gebruikersnaam",
+    "already_have_account": "Heb je al een account?",
+    "dont_have_account": "Geen account?"
+  },
+  "errors": {
+    "page_not_found": "Pagina niet gevonden",
+    "unauthorized": "Ongeautoriseerd",
+    "server_error": "Server fout",
+    "invalid_credentials": "Invalide Inloggegevens",
+    "required_field": "Dit veld is verplicht",
+    "password_mismatch": "Wachtwoord matched niet",
+    "invalid_email": "Invalide e-mailaddress",
+    "generic_error": "Iets ging fout"
   }
-  
+}
