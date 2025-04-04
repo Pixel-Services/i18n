@@ -50,7 +50,7 @@
     "dashboard": {
       "overview": "Übersicht",
       "recent_emails": "Kürzliche E-Mails",
-      "recent_emails_not_found": "Keine kürzlichen E-Mails gefunden.",
+      "recent_emails_not_found": "Keine E-Mails gefunden.",
       "services": {
         "title": "Deine Services",
         "description": "Eine Liste deiner aktuellen Services.",
@@ -90,7 +90,7 @@
       },
       "balance": {
         "title": "Kontostand",
-        "description": "Deinen aktuellen Kontostand einsehen und Ihr Konto aufladen",
+        "description": "Dein aktueller Kontostand",
         "top_up": "Aufladen",
         "modal": {
           "title": "Kontostand Aufladen",
