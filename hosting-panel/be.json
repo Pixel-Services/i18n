@@ -84,13 +84,13 @@
       }
     },
     "affiliates": {
-      "title": "Jouw Verwantschappen",
+      "title": "Jouw Affiliatie",
       "not_eligible": "U komt nog niet in aanmerking.",
-      "request": "Verzoek Verwantschap",
+      "request": "Verzoek Affiliatie",
       "modal": {
-        "title": "Verzoek Verwantschap",
+        "title": "Verzoek Affiliatie",
         "description": "Vertel ons waarom.",
-        "placeholder": "Vertel ons alstublieft waarom u een verwantschap wilt hebben.",
+        "placeholder": "Vertel ons alstublieft waarom u een Affiliatie wilt hebben.",
         "footer": "Voeg nuttige links toe, vertel ons over uzelf. U wordt op de hoogte gebracht wanneer uw aanvraagstatus is bijgewerkt."
       }
     },
