@@ -34,7 +34,9 @@
       "edit": "Modifica",
       "back": "Indietro",
       "next": "Avanti",
-      "send": "Invia"
+      "send": "Invia",
+      "refresh": "Aggiorna",
+      "upload": "Carica"
     },
     "loading": "Caricamento...",
     "error": "Errore",
@@ -45,6 +47,7 @@
     "scroll_down": "Scorri verso il basso..."
   },
   "services": {
+    "title": "I nostri servizi",
     "description": "Esplora la nostra gamma di servizi di hosting ad alte prestazioni progettati per soddisfare le tue esigenze. Dai server di gioco all'hosting web, abbiamo quello che fa per te."
   },
   "dashboard": {
@@ -106,6 +109,9 @@
       "showing_tickets": "Mostrando {{ticketsLength}} di {{totalItems}} tickets",
       "type_reply": "Digita la tua risposta...",
       "assigned_to": "Assegnato a",
+      "no_tickets_found": "Nessun ticket trovato.",
+      "adjust_search": "Prova a modificare i criteri di ricerca.",
+      "create_tip": "Crea un nuovo ticket per ricevere assistenza dal nostro team di supporto.",
       "filters": {
         "all": "Tutti i ticket",
         "open": "Ticket aperti",
@@ -173,6 +179,7 @@
           "status_label": "Stato",
           "status": {
             "online": "Online",
+            "running": "In esecuzione",
             "offline": "Offline",
             "starting": "In avvio",
             "stopping": "In arresto",
@@ -184,6 +191,49 @@
           "disk": "Utilizzo Spazio Disco",
           "network": "Rete",
           "uptime": "Tempo di Attività"
+        },
+        "scheduling": {
+          "runsEveryMinute": "Eseguito ogni minuto",
+          "createModal": {
+            "errorTitle": "Errore durante la creazione della schedule",
+            "successTitle": "Schedule creato",
+            "successDescription": "La schedule '{{name}}' è stata creata correttamente.",
+            "title": "Crea nuova schedule",
+            "nameLabel": "Nome della schedule",
+            "namePlaceholder": "Inserisci il nome della schedule (ad esempio, Riavvio giornaliero)",
+            "cronExpressionLabel": "Espressione Cron",
+            "minuteLabel": "Minuto",
+            "hourLabel": "Ora",
+            "dayOfMonthLabel": "Giorno del mese",
+            "monthLabel": "Mese",
+            "dayOfWeekLabel": "Giorno della settimana",
+            "activeLabel": "Attivo",
+            "onlyWhenOnlineLabel": "Solo quando il server è online",
+            "createButton": "Crea schedule",
+            "cronGuruButton": "Cron Guru Helper",
+            "invalidCronSyntax": "Sintassi cron non valida"
+          },
+          "createTaskModal": {
+            "successTitle": "Task creata",
+            "successDescription": "La task è stata creata correttamente.",
+            "errorTitle": "Errore",
+            "errorDescription": "Impossibile creare la task.",
+            "title": "Crea nuova task",
+            "actionLabel": "Tipo di azione",
+            "actionCommand": "Invia comando",
+            "actionPower": "Controllo dello stato",
+            "actionBackup": "Crea backup",
+            "commandLabel": "Comando",
+            "powerLabel": "Variazione dello stato",
+            "backupLabel": "Opzioni di backup",
+            "payloadLabel": "Payload",
+            "powerPlaceholder": "start, stop, restart, kill",
+            "backupPlaceholder": "Inserisci i file o le cartelle da ignorare durante la generazione di questo backup. Lascia vuoto per utilizzare il contenuto del file .pteroignore nel root della directory del server, se presente. È supportata la corrispondenza con caratteri wildcard per file e cartelle ed è possibile negare una regola anteponendo un punto esclamativo al percorso.",
+            "defaultPlaceholder": "Inserisci il payload",
+            "offsetLabel": "Offset temporale (secondi)",
+            "offsetHelp": "Numero di secondi da attendere dopo l'esecuzione della schedule prima di eseguire questa task",
+            "submitButton": "Crea task"
+          }
         }
       }
     },
