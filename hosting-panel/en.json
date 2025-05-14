@@ -43,6 +43,8 @@
 		"success": "Success",
 		"welcome": "Welcome",
 		"manage": "Manage",
+		"created": "Created",
+		"updated": "Updated",
 		"join_discord": "Join us on Discord",
 		"scroll_down": "Scroll Down..."
 	},
