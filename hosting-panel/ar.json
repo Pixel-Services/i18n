@@ -34,17 +34,22 @@
       "edit": "تعديل",
       "back": "رجوع",
       "next": "التالي",
-      "send": "يرسل"
+      "send": "يرسل",
+      "refresh": "تحديث",
+      "upload": "رفع"
     },
     "loading": "جار التحميل...",
     "error": "خطأ",
     "success": "نجاح",
     "welcome": "أهلاً بك",
     "manage": "إدارة",
+    "created": "تم الإنشاء",
+    "updated": "تم التحديث",
     "join_discord": "انضم إلى ديسكورد",
     "scroll_down": "مرر للأسفل..."
   },
   "services": {
+    "title": "خدماتنا",
     "description": "استكشف مجموعتنا من خدمات الاستضافة عالية الأداء المصممة لتلبية احتياجاتك. من خوادم الألعاب إلى استضافة الويب، نحن نوفر لك كل ما تحتاجه."
   },
   "dashboard": {
@@ -106,6 +111,9 @@
       "showing_tickets": "عرض {{ticketsLength}} من إجمالي {{totalItems}} تذكرة",
       "type_reply": "اكتب ردك...",
       "assigned_to": "مُخصص لـ",
+      "no_tickets_found": "لم يتم العثور على أي تذاكر.",
+      "adjust_search": "حاول تعديل معايير البحث الخاصة بك.",
+      "create_tip": "أنشئ تذكرة جديدة للحصول على مساعدة من فريق الدعم لدينا.",
       "filters": {
         "all": "كل التذاكر",
         "open": "التذاكر المفتوحة",
@@ -173,6 +181,7 @@
           "status_label": "حالة",
           "status": {
             "online": "متصل",
+            "running": "يعمل",
             "offline": "غير متصل",
             "starting": "جار البدء",
             "stopping": "جار الإيقاف",
@@ -184,6 +193,49 @@
           "disk": "استخدام التخزين",
           "network": "الشبكة",
           "uptime": "مدة التشغيل"
+        },
+        "scheduling": {
+          "runsEveryMinute": "يعمل كل دقيقة",
+          "createModal": {
+            "errorTitle": "خطأ في إنشاء الجدول",
+            "successTitle": "تم إنشاء الجدول",
+            "successDescription": "تم إنشاء الجدول '{{name}}' بنجاح.",
+            "title": "إنشاء جدول جديد",
+            "nameLabel": "اسم الجدول",
+            "namePlaceholder": "أدخل اسم الجدول (مثال: إعادة التشغيل اليومية)",
+            "cronExpressionLabel": "تعبير كرون",
+            "minuteLabel": "الدقيقة",
+            "hourLabel": "الساعة",
+            "dayOfMonthLabel": "يوم من الشهر",
+            "monthLabel": "الشهر",
+            "dayOfWeekLabel": "يوم من الأسبوع",
+            "activeLabel": "نشيط",
+            "onlyWhenOnlineLabel": "فقط عندما يكون الخادم متصلاً",
+            "createButton": "إنشاء الجدول",
+            "cronGuruButton": "مساعد كرون جورو",
+            "invalidCronSyntax": "صيغة كرون غير صالحة"
+          },
+          "createTaskModal": {
+            "successTitle": "تم إنشاء المهمة",
+            "successDescription": "تم إنشاء المهمة بنجاح.",
+            "errorTitle": "خطأ",
+            "errorDescription": "فشل في إنشاء المهمة.",
+            "title": "إنشاء مهمة جديدة",
+            "actionLabel": "نوع الإجراء",
+            "actionCommand": "إرسال أمر",
+            "actionPower": "التحكم بالطاقة",
+            "actionBackup": "إنشاء نسخة احتياطية",
+            "commandLabel": "الأمر",
+            "powerLabel": "إجراء الطاقة",
+            "backupLabel": "خيارات النسخ الاحتياطي",
+            "payloadLabel": "الحمولة",
+            "powerPlaceholder": "start, stop, restart, kill",
+            "backupPlaceholder": "أدخل الملفات أو المجلدات التي يجب تجاهلها أثناء إنشاء هذه النسخة الاحتياطية. اتركها فارغة لاستخدام محتويات ملف .pteroignore في جذر دليل الخادم إذا كان موجودًا. يتم دعم مطابقة البدل للملفات والمجلدات، ويمكنك نفي قاعدة عن طريق إضافة علامة تعجب في بداية المسار.",
+            "defaultPlaceholder": "أدخل الحمولة",
+            "offsetLabel": "إزاحة الوقت (بالثواني)",
+            "offsetHelp": "عدد الثواني للانتظار بعد تشغيل الجدول قبل تنفيذ هذه المهمة",
+            "submitButton": "إنشاء المهمة"
+          }
         }
       }
     },
