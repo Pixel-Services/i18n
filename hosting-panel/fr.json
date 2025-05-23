@@ -23,7 +23,12 @@
       "faq": "FAQ",
       "support": "Soutien",
       "titles": {
-        "dashboard": "Tableau de bord de {{username}}"
+        "dashboard": "Tableau de bord de {{username}}",
+        "settings": "Paramètres de {{username}}",
+        "support_tickets": "Tickets d'assistance",
+        "ticket_details": "Détails du billet",
+        "top_up_balance": "Recharger le solde",
+        "tos": "Conditions d'utilisation"
       }
     },
     "actions": {
@@ -38,17 +43,21 @@
       "back": "Dos",
       "next": "Suivant",
       "send": "Send",
-      "refresh": "Rafraîchir"
+      "refresh": "Rafraîchir",
+      "upload": "Télécharger"
     },
     "loading": "Chargement...",
     "error": "Erreur",
     "success": "Succès",
     "welcome": "Bienvenue",
     "manage": "Gérer",
+    "created": "Créé",
+    "updated": "Mis à jour",
     "join_discord": "Rejoignez-nous sur Discord",
     "scroll_down": "Faites défiler vers le bas..."
   },
   "services": {
+    "title": "Nos services",
     "description": "Découvrez une large gamme de services d'hébergement performants, conçus pour répondre à vos attentes. Des serveurs de jeux à l'hébergement de sites web, nous avons tout ce qu'il vous faut."
   },
   "dashboard": {
@@ -111,6 +120,8 @@
       "type_reply": "Tapez votre réponse...",
       "assigned_to": "Affecté à",
       "no_tickets_found": "Aucun billet trouvé.",
+      "adjust_search": "Essayez d'ajuster vos critères de recherche.",
+      "create_tip": "Créez un nouveau ticket pour obtenir de l'aide de notre équipe d'assistance.",
       "filters": {
         "all": "Tous les billets",
         "open": "Billets ouverts",
@@ -192,9 +203,46 @@
           "uptime": "Temps de disponibilité"
         },
         "scheduling": {
+          "runsEveryMinute": "Fonctionne toutes les minutes",
           "createModal": {
+            "errorTitle": "Erreur lors de la création du planning",
+            "successTitle": "Calendrier créé",
+            "successDescription": "Le planning '{{name}}' a été créé avec succès.",
+            "title": "Créer un nouveau calendrier",
+            "nameLabel": "Nom de l'horaire",
+            "namePlaceholder": "Saisissez le nom du programme (par exemple, redémarrage quotidien)",
+            "cronExpressionLabel": "Expression Cron",
+            "minuteLabel": "Minute",
+            "hourLabel": "Heure",
+            "dayOfMonthLabel": "Jour du mois",
+            "monthLabel": "Mois",
+            "dayOfWeekLabel": "Jour de la semaine",
+            "activeLabel": "Actif",
+            "onlyWhenOnlineLabel": "Uniquement lorsque le serveur est en ligne",
+            "createButton": "Créer un calendrier",
+            "cronGuruButton": "Assistant Cron Guru",
+            "invalidCronSyntax": "Syntaxe cron invalide"
           },
           "createTaskModal": {
+            "successTitle": "Tâche créée",
+            "successDescription": "La tâche a été créée avec succès.",
+            "errorTitle": "Erreur",
+            "errorDescription": "Échec de la création de la tâche.",
+            "title": "Créer une nouvelle tâche",
+            "actionLabel": "Type d'action",
+            "actionCommand": "Envoyer une commande",
+            "actionPower": "Contrôle de puissance",
+            "actionBackup": "Créer une sauvegarde",
+            "commandLabel": "Commande",
+            "powerLabel": "Action de puissance",
+            "backupLabel": "Options de sauvegarde",
+            "payloadLabel": "Charge utile",
+            "powerPlaceholder": "démarrer, arrêter, redémarrer, tuer",
+            "backupPlaceholder": "Saisissez les fichiers ou dossiers à ignorer lors de la création de cette sauvegarde. Laissez ce champ vide pour utiliser le contenu du fichier .pteroignore à la racine du répertoire du serveur, le cas échéant. La correspondance des fichiers et dossiers par caractères génériques est prise en charge, et vous pouvez annuler une règle en préfixant le chemin d'accès par un point d'exclamation.",
+            "defaultPlaceholder": "Entrez la charge utile",
+            "offsetLabel": "Décalage horaire (secondes)",
+            "offsetHelp": "Nombre de secondes à attendre après l'exécution de la planification avant d'exécuter cette tâche",
+            "submitButton": "Créer une tâche"
           }
         }
       }
