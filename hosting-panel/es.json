@@ -1,1 +1,278 @@
-{}
+{
+  "common": {
+    "carbon_negative": "Carbono negativo",
+    "carbon_negative_goal": {
+      "title": "Nuestro objetivo de carbono negativo",
+      "description": "Nuestros servidores se alimentan exclusivamente de fuentes de energía verde y renovable. Colaboramos con empresas que nos permiten plantar árboles por cada servicio que vendemos, lo que reduce eficazmente el CO2 de la atmósfera."
+    },
+    "carbon_stats": {
+      "trees_planted": "Árboles plantados",
+      "co2_offset": "Compensación de CO2",
+      "reforested_land": "Acres de tierra reforestada",
+      "since_november_2024": "Desde noviembre de 2024",
+      "kg_of_co2": "kg de CO2"
+    },
+    "landing_description": "Pixel Services ofrece alojamiento de juegos de alto rendimiento y económico con procesadores Ryzen, RAM DDR5 y almacenamiento NVMe. Disfruta de protección contra DDoS, copias de seguridad diarias y conectividad rápida, todo gestionado desde un panel intuitivo. Alojamiento premium a un precio excelente, con un compromiso con la sostenibilidad.",
+    "explore_plans": "Explorar planes",
+    "navigation": {
+      "home": "Hogar",
+      "services": "Servicios",
+      "pricing": "Precios",
+      "about": "Sobre nosotros",
+      "contact": "Contacto",
+      "faq": "Preguntas frecuentes",
+      "support": "Apoyo",
+      "titles": {
+        "dashboard": "Panel de control de {{username}}",
+        "settings": "Configuración de {{username}}",
+        "support_tickets": "Tickets de soporte",
+        "ticket_details": "Detalles de las entradas",
+        "top_up_balance": "Recargar saldo",
+        "tos": "Condiciones de servicio"
+      }
+    },
+    "actions": {
+      "login": "Acceso",
+      "register": "Registro",
+      "submit": "Entregar",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "save": "Ahorrar",
+      "delete": "Borrar",
+      "edit": "Editar",
+      "back": "Atrás",
+      "next": "Próximo",
+      "send": "Enviar",
+      "refresh": "Refrescar",
+      "upload": "Subir"
+    },
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "welcome": "Bienvenido",
+    "manage": "Administrar",
+    "created": "Creado",
+    "updated": "Actualizado",
+    "join_discord": "Únase a nosotros en Discord",
+    "scroll_down": "Desplácese hacia abajo..."
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "description": "Descubra una amplia gama de potentes servicios de alojamiento diseñados para satisfacer sus expectativas. Desde servidores para juegos hasta alojamiento web, tenemos todo lo que necesita."
+  },
+  "dashboard": {
+    "overview": "Descripción general",
+    "recent_emails": "Correos electrónicos recientes",
+    "recent_emails_not_found": "No se encontraron correos electrónicos nuevos.",
+    "services": {
+      "title": "Sus servicios",
+      "description": "Listado de sus servicios actuales y su estado.",
+      "order_new": "Solicitar nuevo servicio",
+      "active_services": "Servicios activos",
+      "active_services_description": "Número de servicios activos."
+    },
+    "settings": {
+      "title": "Ajustes",
+      "save_all": "Guardar todo",
+      "avatar": {
+        "title": "Avatar",
+        "upload": "Cambiar",
+        "upload_description": "Haga clic en el avatar para cambiarlo."
+      },
+      "general_information": {
+        "username": "Nombre de usuario",
+        "email": "Correo electrónico",
+        "first_name": "Nombre de pila",
+        "last_name": "Apellido"
+      },
+      "reset_password": {
+        "title": "Restablecer contraseña",
+        "description": "Le enviaremos un correo electrónico con un enlace para restablecer su contraseña."
+      }
+    },
+    "affiliates": {
+      "title": "Sus afiliados",
+      "not_eligible": "Aún no eres elegible para el programa de afiliados.",
+      "request": "Enviar solicitud",
+      "modal": {
+        "title": "Enviar solicitud",
+        "description": "Cuéntanos por qué.",
+        "placeholder": "Explique por qué está interesado en unirse al programa de afiliados.",
+        "footer": "Incluye enlaces útiles y cuéntanos sobre ti. Recibirás una respuesta cuando se actualice tu solicitud."
+      }
+    },
+    "balance": {
+      "title": "Balance",
+      "description": "Vea su saldo actual o recárguelo.",
+      "top_up": "Completar",
+      "modal": {
+        "title": "Recargar saldo",
+        "amount_specification": "Cantidad que desea recargar:",
+        "footer": "El importe se añadirá a su saldo inmediatamente después de que se complete la transacción.",
+        "continue_to_payment": "Continuar con el pago"
+      }
+    },
+    "tickets": {
+      "title": "Tickets de soporte",
+      "description": "Pida ayuda a nuestros especialistas.",
+      "search_label": "Buscar entradas...",
+      "showing_tickets": "Mostrando {{ticketsLength}} de {{totalItems}} entradas",
+      "type_reply": "Escribe tu respuesta...",
+      "assigned_to": "Asignado a",
+      "no_tickets_found": "No se encontraron entradas.",
+      "adjust_search": "Intente ajustar sus criterios de búsqueda.",
+      "create_tip": "Cree un nuevo ticket para obtener ayuda de nuestro equipo de soporte.",
+      "filters": {
+        "all": "Todas las entradas",
+        "open": "Entradas abiertas",
+        "closed": "Entradas cerradas"
+      },
+      "priority": {
+        "low": "Bajo",
+        "medium": "Medio",
+        "high": "Alto",
+        "urgent": "Urgente"
+      },
+      "status": {
+        "open": "Abierto",
+        "closed": "Cerrado",
+        "open_tickets": "Entradas abiertas",
+        "closed_tickets": "Entradas cerradas"
+      },
+      "modal": {
+        "title": "Crear ticket",
+        "description": "Describe tu problema para que podamos ayudarte a resolverlo.",
+        "subject": "Sujeto",
+        "message": "Mensaje",
+        "tips": [
+          "Describe tu problema en detalle",
+          "Especifique cualquier mensaje de error específico",
+          "Describe los pasos que ya has tomado",
+          "No incluyas ningún dato personal (nunca te lo pediremos)",
+          "Tenga paciencia, le responderemos lo más rápido posible."
+        ],
+        "create_button": "Crear ticket"
+      },
+      "actions": {
+        "close": "Cerrar ticket",
+        "reopen": "Reabrir ticket",
+        "new": "Nuevo billete"
+      }
+    },
+    "billing": {
+      "title": "Facturación",
+      "invoices": "Facturas",
+      "invoices_description": "Todas tus facturas."
+    },
+    "service": {
+      "pterodactyl": {
+        "overview": "Descripción general",
+        "files": "Archivos",
+        "properties": "Propiedades",
+        "databases": "Bases de datos",
+        "schedules": "Horarios",
+        "backups": "Copias de seguridad",
+        "console": {
+          "type_a_command": "Escriba un comando...",
+          "clear": "Claro"
+        },
+        "actions": {
+          "start": "Comenzar",
+          "stop": "Detener",
+          "restart": "Reanudar",
+          "kill": "Matar",
+          "backup": "Respaldo",
+          "restore": "Restaurar",
+          "delete": "Borrar"
+        },
+        "metrics": {
+          "status_label": "Estado",
+          "status": {
+            "online": "En línea",
+            "running": "Correr",
+            "offline": "Desconectado",
+            "starting": "A partir de",
+            "stopping": "Parada",
+            "restarting": "Reiniciando",
+            "killing": "Asesinato"
+          },
+          "cpu": "Uso de CPU",
+          "memory": "Uso de la memoria",
+          "disk": "Uso del disco",
+          "network": "Red",
+          "uptime": "Tiempo de actividad"
+        },
+        "scheduling": {
+          "runsEveryMinute": "Funciona cada minuto",
+          "createModal": {
+            "errorTitle": "Error al crear la programación",
+            "successTitle": "Horario creado",
+            "successDescription": "El horario '{{name}}' se ha creado exitosamente.",
+            "title": "Crear nuevo horario",
+            "nameLabel": "Nombre del horario",
+            "namePlaceholder": "Ingrese el nombre del programa (por ejemplo, Reinicio diario)",
+            "cronExpressionLabel": "Expresión cron",
+            "minuteLabel": "Minuto",
+            "hourLabel": "Hora",
+            "dayOfMonthLabel": "Día del mes",
+            "monthLabel": "Mes",
+            "dayOfWeekLabel": "Día de la semana",
+            "activeLabel": "Activo",
+            "onlyWhenOnlineLabel": "Sólo cuando el servidor está en línea",
+            "createButton": "Crear horario",
+            "cronGuruButton": "Ayudante de Cron Guru",
+            "invalidCronSyntax": "Sintaxis de cron no válida"
+          },
+          "createTaskModal": {
+            "successTitle": "Tarea creada",
+            "successDescription": "La tarea ha sido creada exitosamente.",
+            "errorTitle": "Error",
+            "errorDescription": "Error al crear la tarea.",
+            "title": "Crear nueva tarea",
+            "actionLabel": "Tipo de acción",
+            "actionCommand": "Enviar comando",
+            "actionPower": "Control de potencia",
+            "actionBackup": "Crear copia de seguridad",
+            "commandLabel": "Dominio",
+            "powerLabel": "Acción de poder",
+            "backupLabel": "Opciones de copia de seguridad",
+            "payloadLabel": "Carga útil",
+            "powerPlaceholder": "iniciar, detener, reiniciar, matar",
+            "backupPlaceholder": "Introduzca los archivos o carpetas que se ignorarán al generar esta copia de seguridad. Déjelo en blanco para usar el contenido del archivo .pteroignore en la raíz del directorio del servidor, si lo hay. Se admite la coincidencia de archivos y carpetas con comodines, y puede anular una regla anteponiendo un signo de exclamación a la ruta.",
+            "defaultPlaceholder": "Introducir carga útil",
+            "offsetLabel": "Desplazamiento horario (segundos)",
+            "offsetHelp": "Número de segundos que se deben esperar después de que se ejecuta el programa antes de ejecutar esta tarea",
+            "submitButton": "Crear tarea"
+          }
+        }
+      }
+    },
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "admin_panel": "Panel de administración"
+  },
+  "auth": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirm_password": "confirmar Contraseña",
+    "forgot_password": "¿Has olvidado tu contraseña?",
+    "reset_password": "Restablecer contraseña",
+    "verify_email": "Verificar correo electrónico",
+    "verification_code": "Código de verificación",
+    "first_name": "Nombre de pila",
+    "last_name": "Apellido",
+    "username": "Nombre de usuario",
+    "already_have_account": "¿Ya tienes una cuenta?",
+    "dont_have_account": "¿No tienes una cuenta?"
+  },
+  "errors": {
+    "page_not_found": "Página no encontrada",
+    "unauthorized": "No autorizado",
+    "server_error": "Error del servidor",
+    "invalid_credentials": "Credenciales inválidas",
+    "required_field": "Este campo es obligatorio",
+    "password_mismatch": "Las contraseñas no coinciden",
+    "invalid_email": "Dirección de correo electrónico no válida",
+    "generic_error": "Algo salió mal"
+  }
+}
