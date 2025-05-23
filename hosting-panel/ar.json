@@ -21,7 +21,15 @@
       "about": "حول",
       "contact": "اتصل بنا",
       "faq": "الأسئلة الشائعة",
-      "support": "الدعم"
+      "support": "الدعم",
+      "titles": {
+        "dashboard": "لوحة التحكم الخاصة بـ {{username}}",
+        "settings": "إعدادات {{username}}",
+        "support_tickets": "تذاكر الدعم",
+        "ticket_details": "تفاصيل التذكرة",
+        "top_up_balance": "شحن الرصيد",
+        "tos": "شروط الخدمة"
+      }
     },
     "actions": {
       "login": "تسجيل الدخول",
