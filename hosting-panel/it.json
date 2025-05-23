@@ -21,7 +21,15 @@
       "about": "Chi Siamo",
       "contact": "Contatti",
       "faq": "FAQ",
-      "support": "Supporto"
+      "support": "Supporto",
+      "titles": {
+        "dashboard": "Dashboard di {{username}}",
+        "settings": "Impostazioni di {{username}}",
+        "support_tickets": "Ticket di supporto",
+        "ticket_details": "Dettagli del Ticket",
+        "top_up_balance": "Ricarica saldo",
+        "tos": "Termini di servizio"
+      }
     },
     "actions": {
       "login": "Accedi",
