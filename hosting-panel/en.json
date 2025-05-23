@@ -21,7 +21,15 @@
 			"about": "About Us",
 			"contact": "Contact",
 			"faq": "FAQ",
-			"support": "Support"
+			"support": "Support",
+			"titles": {
+				"dashboard": "{{username}}'s Dashboard",
+				"settings": "{{username}}'s Settings",
+				"support_tickets": "Support Tickets",
+				"ticket_details": "Ticket Details",
+				"top_up_balance": "Top Up Balance",
+				"tos": "Terms of Service"
+			}
 		},
 		"actions": {
 			"login": "Login",
