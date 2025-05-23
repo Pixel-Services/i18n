@@ -1,218 +1,278 @@
 {
   "common": {
-    "carbon_negative": "Carbon Negative",
+    "carbon_negative": "Carbone négatif",
     "carbon_negative_goal": {
-      "title": "Our Carbon Negative Goal",
-      "description": "The servers we own are powered exclusively by green, renewable energy sources. We partner with companies that allow us to plant trees for every service we sell, effectively removing additional CO2 from the atmosphere."
+      "title": "Notre objectif de bilan carbone négatif",
+      "description": "Nos serveurs sont exclusivement alimentés par des énergies vertes et renouvelables. Nous collaborons avec des entreprises qui nous permettent de planter des arbres pour chaque service que nous vendons, réduisant ainsi efficacement les émissions de CO2 de l'atmosphère."
     },
     "carbon_stats": {
-      "trees_planted": "Trees Planted",
-      "co2_offset": "CO2 Offset",
-      "reforested_land": "Acres of Reforested Land",
-      "since_november_2024": "Since November 2024",
-      "kg_of_co2": "KG of CO2"
+      "trees_planted": "Arbres plantés",
+      "co2_offset": "Compensation des émissions de CO2",
+      "reforested_land": "Acres de terres reboisées",
+      "since_november_2024": "Depuis novembre 2024",
+      "kg_of_co2": "KG de CO2"
     },
-    "landing_description": "Pixel Services offers high-performance, budget-friendly game hosting with Ryzen processors, DDR5 RAM, and NVMe storage. Enjoy DDoS protection, daily backups, and fast connectivity—all managed through an intuitive panel. Premium hosting at a great price, with a commitment to sustainability.",
-    "explore_plans": "Explore Plans",
+    "landing_description": "Pixel Services propose un hébergement de jeux performant et économique avec processeurs Ryzen, RAM DDR5 et stockage NVMe. Bénéficiez d'une protection DDoS, de sauvegardes quotidiennes et d'une connectivité rapide, le tout géré via un panneau intuitif. Hébergement premium à un prix avantageux, avec un engagement durable.",
+    "explore_plans": "Explorer les plans",
     "navigation": {
-      "home": "Home",
+      "home": "Maison",
       "services": "Services",
-      "pricing": "Pricing",
-      "about": "About Us",
+      "pricing": "Tarification",
+      "about": "À propos de nous",
       "contact": "Contact",
       "faq": "FAQ",
-      "support": "Support"
+      "support": "Soutien",
+      "titles": {
+        "dashboard": "Tableau de bord de {{username}}",
+        "settings": "Paramètres de {{username}}",
+        "support_tickets": "Tickets d'assistance",
+        "ticket_details": "Détails du billet",
+        "top_up_balance": "Recharger le solde",
+        "tos": "Conditions d'utilisation"
+      }
     },
     "actions": {
-      "login": "Login",
-      "register": "Register",
-      "submit": "Submit",
-      "confirm": "Confirm",
-      "cancel": "Cancel",
-      "save": "Save",
-      "delete": "Delete",
-      "edit": "Edit",
-      "back": "Back",
-      "next": "Next",
-      "send": "Send"
+      "login": "Se connecter",
+      "register": "Registre",
+      "submit": "Soumettre",
+      "confirm": "Confirmer",
+      "cancel": "Annuler",
+      "save": "Sauvegarder",
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "back": "Dos",
+      "next": "Suivant",
+      "send": "Send",
+      "refresh": "Rafraîchir",
+      "upload": "Télécharger"
     },
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "welcome": "Welcome",
-    "manage": "Manage",
-    "join_discord": "Join us on Discord",
-    "scroll_down": "Scroll Down..."
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "welcome": "Bienvenue",
+    "manage": "Gérer",
+    "created": "Créé",
+    "updated": "Mis à jour",
+    "join_discord": "Rejoignez-nous sur Discord",
+    "scroll_down": "Faites défiler vers le bas..."
   },
   "services": {
-    "description": "Discover a wide range of powerful hosting services designed to meet your expectations. From game servers to website hosting, we have everything you need."
+    "title": "Nos services",
+    "description": "Découvrez une large gamme de services d'hébergement performants, conçus pour répondre à vos attentes. Des serveurs de jeux à l'hébergement de sites web, nous avons tout ce qu'il vous faut."
   },
   "dashboard": {
-    "overview": "Overview",
-    "recent_emails": "Recent Emails",
-    "recent_emails_not_found": "No new emails found.",
+    "overview": "Aperçu",
+    "recent_emails": "E-mails récents",
+    "recent_emails_not_found": "Aucun nouvel e-mail trouvé.",
     "services": {
-      "title": "Your Services",
-      "description": "List of your current services and their status.",
-      "order_new": "Order New Service",
-      "active_services": "Active Services",
-      "active_services_description": "Number of active services."
+      "title": "Vos services",
+      "description": "Liste de vos services actuels et de leur statut.",
+      "order_new": "Commander un nouveau service",
+      "active_services": "Services actifs",
+      "active_services_description": "Nombre de services actifs."
     },
     "settings": {
-      "title": "Settings",
-      "save_all": "Save All",
+      "title": "Paramètres",
+      "save_all": "Enregistrer tout",
       "avatar": {
         "title": "Avatar",
-        "upload": "Change",
-        "upload_description": "Click the avatar to change it."
+        "upload": "Changement",
+        "upload_description": "Cliquez sur l'avatar pour le changer."
       },
       "general_information": {
-        "username": "Username",
-        "email": "Email",
-        "first_name": "First Name",
-        "last_name": "Last Name"
+        "username": "Nom d'utilisateur",
+        "email": "E-mail",
+        "first_name": "Prénom",
+        "last_name": "Nom de famille"
       },
       "reset_password": {
-        "title": "Reset Password",
-        "description": "We will send you an email with a link to reset your password."
+        "title": "Réinitialiser le mot de passe",
+        "description": "Nous vous enverrons un e-mail avec un lien pour réinitialiser votre mot de passe."
       }
     },
     "affiliates": {
-      "title": "Your Affiliates",
-      "not_eligible": "You are not eligible for the affiliate program yet.",
-      "request": "Send Request",
+      "title": "Vos affiliés",
+      "not_eligible": "Vous n'êtes pas encore éligible au programme d'affiliation.",
+      "request": "Envoyer une demande",
       "modal": {
-        "title": "Send Request",
-        "description": "Tell us why.",
-        "placeholder": "Explain why you're interested in joining the affiliate program.",
-        "footer": "Include helpful links, tell us about yourself. You will receive a response when your application is updated."
+        "title": "Envoyer une demande",
+        "description": "Dites-nous pourquoi.",
+        "placeholder": "Expliquez pourquoi vous souhaitez rejoindre le programme d’affiliation.",
+        "footer": "Ajoutez des liens utiles et parlez-nous de vous. Vous recevrez une réponse dès que votre candidature sera mise à jour."
       }
     },
     "balance": {
-      "title": "Balance",
-      "description": "View your current balance or top it up.",
-      "top_up": "Top Up",
+      "title": "Équilibre",
+      "description": "Consultez votre solde actuel ou rechargez-le.",
+      "top_up": "Recharger",
       "modal": {
-        "title": "Top Up Balance",
-        "amount_specification": "Amount you want to top up:",
-        "footer": "The amount will be added to your balance immediately after the transaction is completed.",
-        "continue_to_payment": "Continue to Payment"
+        "title": "Recharger le solde",
+        "amount_specification": "Montant que vous souhaitez recharger :",
+        "footer": "Le montant sera ajouté à votre solde immédiatement après la fin de la transaction.",
+        "continue_to_payment": "Continuer vers le paiement"
       }
     },
     "tickets": {
-      "title": "Support Tickets",
-      "description": "Ask our specialists for help.",
-      "search_label": "Search tickets...",
-      "showing_tickets": "Showing {{ticketsLength}} of {{totalItems}} tickets",
-      "type_reply": "Type your reply...",
-      "assigned_to": "Assigned to",
+      "title": "Tickets d'assistance",
+      "description": "Demandez de l'aide à nos spécialistes.",
+      "search_label": "Rechercher des billets...",
+      "showing_tickets": "Affichage de {{ticketsLength}} sur {{totalItems}} billets",
+      "type_reply": "Tapez votre réponse...",
+      "assigned_to": "Affecté à",
+      "no_tickets_found": "Aucun billet trouvé.",
+      "adjust_search": "Essayez d'ajuster vos critères de recherche.",
+      "create_tip": "Créez un nouveau ticket pour obtenir de l'aide de notre équipe d'assistance.",
       "filters": {
-        "all": "All Tickets",
-        "open": "Open Tickets",
-        "closed": "Closed Tickets"
+        "all": "Tous les billets",
+        "open": "Billets ouverts",
+        "closed": "Billets fermés"
       },
       "priority": {
-        "low": "Low",
-        "medium": "Medium",
-        "high": "High",
+        "low": "Faible",
+        "medium": "Moyen",
+        "high": "Haut",
         "urgent": "Urgent"
       },
       "status": {
-        "open": "Open",
-        "closed": "Closed",
-        "open_tickets": "Open Tickets",
-        "closed_tickets": "Closed Tickets"
+        "open": "Ouvrir",
+        "closed": "Fermé",
+        "open_tickets": "Billets ouverts",
+        "closed_tickets": "Billets fermés"
       },
       "modal": {
-        "title": "Create Ticket",
-        "description": "Describe your problem so we can help you solve it.",
-        "subject": "Subject",
+        "title": "Créer un ticket",
+        "description": "Décrivez votre problème afin que nous puissions vous aider à le résoudre.",
+        "subject": "Sujet",
         "message": "Message",
         "tips": [
-          "Describe your problem in detail",
-          "Specify any specific error message",
-          "Describe the steps you have already taken",
-          "Do not include any personal data (we will never ask for it)",
-          "Be patient, we will respond as quickly as we can"
+          "Décrivez votre problème en détail",
+          "Spécifiez un message d'erreur spécifique",
+          "Décrivez les étapes que vous avez déjà suivies",
+          "N'incluez aucune donnée personnelle (nous ne vous la demanderons jamais)",
+          "Soyez patient, nous vous répondrons aussi vite que possible"
         ],
-        "create_button": "Create Ticket"
+        "create_button": "Créer un ticket"
       },
       "actions": {
-        "close": "Close Ticket",
-        "reopen": "Reopen Ticket",
-        "new": "New Ticket"
+        "close": "Fermer le ticket",
+        "reopen": "Réouverture du ticket",
+        "new": "Nouveau billet"
       }
     },
     "billing": {
-      "title": "Billing",
-      "invoices": "Invoices",
-      "invoices_description": "All your invoices."
+      "title": "Facturation",
+      "invoices": "Factures",
+      "invoices_description": "Toutes vos factures."
     },
     "service": {
       "pterodactyl": {
-        "overview": "Overview",
-        "files": "Files",
-        "properties": "Properties",
-        "databases": "Databases",
-        "schedules": "Schedules",
-        "backups": "Backups",
+        "overview": "Aperçu",
+        "files": "Fichiers",
+        "properties": "Propriétés",
+        "databases": "bases de données",
+        "schedules": "Horaires",
+        "backups": "Sauvegardes",
         "console": {
-          "type_a_command": "Type a command...",
-          "clear": "Clear"
+          "type_a_command": "Tapez une commande...",
+          "clear": "Clair"
         },
         "actions": {
-          "start": "Start",
-          "stop": "Stop",
-          "restart": "Restart",
-          "kill": "Kill",
-          "backup": "Backup",
-          "restore": "Restore",
-          "delete": "Delete"
+          "start": "Commencer",
+          "stop": "Arrêt",
+          "restart": "Redémarrage",
+          "kill": "Tuer",
+          "backup": "Sauvegarde",
+          "restore": "Restaurer",
+          "delete": "Supprimer"
         },
         "metrics": {
-          "status_label": "Status",
+          "status_label": "Statut",
           "status": {
-            "online": "Online",
-            "offline": "Offline",
-            "starting": "Starting",
-            "stopping": "Stopping",
-            "restarting": "Restarting",
-            "killing": "Killing"
+            "online": "En ligne",
+            "running": "En cours d'exécution",
+            "offline": "Hors ligne",
+            "starting": "Départ",
+            "stopping": "Arrêt",
+            "restarting": "Redémarrage",
+            "killing": "Meurtre"
           },
-          "cpu": "CPU Usage",
-          "memory": "Memory Usage",
-          "disk": "Disk Usage",
-          "network": "Network",
-          "uptime": "Uptime"
+          "cpu": "Utilisation du processeur",
+          "memory": "Utilisation de la mémoire",
+          "disk": "Utilisation du disque",
+          "network": "Réseau",
+          "uptime": "Temps de disponibilité"
+        },
+        "scheduling": {
+          "runsEveryMinute": "Fonctionne toutes les minutes",
+          "createModal": {
+            "errorTitle": "Erreur lors de la création du planning",
+            "successTitle": "Calendrier créé",
+            "successDescription": "Le planning '{{name}}' a été créé avec succès.",
+            "title": "Créer un nouveau calendrier",
+            "nameLabel": "Nom de l'horaire",
+            "namePlaceholder": "Saisissez le nom du programme (par exemple, redémarrage quotidien)",
+            "cronExpressionLabel": "Expression Cron",
+            "minuteLabel": "Minute",
+            "hourLabel": "Heure",
+            "dayOfMonthLabel": "Jour du mois",
+            "monthLabel": "Mois",
+            "dayOfWeekLabel": "Jour de la semaine",
+            "activeLabel": "Actif",
+            "onlyWhenOnlineLabel": "Uniquement lorsque le serveur est en ligne",
+            "createButton": "Créer un calendrier",
+            "cronGuruButton": "Assistant Cron Guru",
+            "invalidCronSyntax": "Syntaxe cron invalide"
+          },
+          "createTaskModal": {
+            "successTitle": "Tâche créée",
+            "successDescription": "La tâche a été créée avec succès.",
+            "errorTitle": "Erreur",
+            "errorDescription": "Échec de la création de la tâche.",
+            "title": "Créer une nouvelle tâche",
+            "actionLabel": "Type d'action",
+            "actionCommand": "Envoyer une commande",
+            "actionPower": "Contrôle de puissance",
+            "actionBackup": "Créer une sauvegarde",
+            "commandLabel": "Commande",
+            "powerLabel": "Action de puissance",
+            "backupLabel": "Options de sauvegarde",
+            "payloadLabel": "Charge utile",
+            "powerPlaceholder": "démarrer, arrêter, redémarrer, tuer",
+            "backupPlaceholder": "Saisissez les fichiers ou dossiers à ignorer lors de la création de cette sauvegarde. Laissez ce champ vide pour utiliser le contenu du fichier .pteroignore à la racine du répertoire du serveur, le cas échéant. La correspondance des fichiers et dossiers par caractères génériques est prise en charge, et vous pouvez annuler une règle en préfixant le chemin d'accès par un point d'exclamation.",
+            "defaultPlaceholder": "Entrez la charge utile",
+            "offsetLabel": "Décalage horaire (secondes)",
+            "offsetHelp": "Nombre de secondes à attendre après l'exécution de la planification avant d'exécuter cette tâche",
+            "submitButton": "Créer une tâche"
+          }
         }
       }
     },
-    "profile": "Profile",
-    "logout": "Logout",
-    "admin_panel": "Admin Panel"
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "admin_panel": "Panneau d'administration"
   },
   "auth": {
-    "email": "Email",
-    "password": "Password",
-    "confirm_password": "Confirm Password",
-    "forgot_password": "Forgot Password?",
-    "reset_password": "Reset Password",
-    "verify_email": "Verify Email",
-    "verification_code": "Verification Code",
-    "first_name": "First Name",
-    "last_name": "Last Name",
-    "username": "Username",
-    "already_have_account": "Already have an account?",
-    "dont_have_account": "Don't have an account?"
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmez le mot de passe",
+    "forgot_password": "Mot de passe oublié?",
+    "reset_password": "Réinitialiser le mot de passe",
+    "verify_email": "Vérifier l'e-mail",
+    "verification_code": "Le code de vérification",
+    "first_name": "Prénom",
+    "last_name": "Nom de famille",
+    "username": "Nom d'utilisateur",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "dont_have_account": "Vous n'avez pas de compte ?"
   },
   "errors": {
-    "page_not_found": "Page not found",
-    "unauthorized": "Unauthorized",
-    "server_error": "Server error",
-    "invalid_credentials": "Invalid credentials",
-    "required_field": "This field is required",
-    "password_mismatch": "Passwords do not match",
-    "invalid_email": "Invalid email address",
-    "generic_error": "Something went wrong"
+    "page_not_found": "Page non trouvée",
+    "unauthorized": "Non autorisé",
+    "server_error": "Erreur du serveur",
+    "invalid_credentials": "Informations d'identification non valides",
+    "required_field": "Ce champ est obligatoire",
+    "password_mismatch": "Les mots de passe ne correspondent pas",
+    "invalid_email": "Adresse e-mail invalide",
+    "generic_error": "Quelque chose s'est mal passé"
   }
 }
